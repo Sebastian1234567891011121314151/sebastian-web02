@@ -8,7 +8,7 @@ function setup(){
 
 function draw(){
     fill ("red");
-    circle(150,80,50);
+    circle(x,y,50);
     fill ("yellow");
     circle(150,150,50);
 
