@@ -9,5 +9,6 @@ function draw(){
     fill ("yellow");
     circle(150,150,50);
 
-    fill ("orange");
-    circle(150,250,50);}
+    fill ("green");
+    circle(150,250,50);
+}
