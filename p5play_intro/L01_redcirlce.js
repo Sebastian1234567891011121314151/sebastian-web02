@@ -5,12 +5,11 @@ function setup(){
 
 function draw(){
     fill ("red");
-    circle(150,50,50);
-}
+    circle(150,50,50);}
 function draw(){
     fill ("yellow");
     circle(150,150,50);}
-    
+
     function draw(){
     fill ("orange");
     circle(150,250,50);}
