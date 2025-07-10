@@ -17,4 +17,5 @@ function draw(){
 
     fill ("green");
     circle(150,gy,50);
+    gy=gy-5
 }
