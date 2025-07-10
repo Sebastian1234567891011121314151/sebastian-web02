@@ -1,5 +1,5 @@
 let x=50
-
+let y=50
 
 function setup(){
     new Canvas(300,300);
