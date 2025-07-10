@@ -1,3 +1,3 @@
 function setup(){
-    new Canvas(300)
+    new Canvas(300,300)
 }
