@@ -1,4 +1,4 @@
-let x=
+let x=50
 
 
 function setup(){
