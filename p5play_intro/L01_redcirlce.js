@@ -2,7 +2,7 @@ let x=50
 let y=50
 
 function setup(){
-    new Canvas(300,300);
+    new Canvas(600,600);
     background("white");
 }
 
