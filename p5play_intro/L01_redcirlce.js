@@ -9,7 +9,7 @@ function draw(){
 }
 function draw(){
     fill ("yellow");
-    circle(150,150,200);}
+    circle(150,150,);}
     function draw(){
-    fill ("");
+    fill ("orange");
     circle(150,150,200);}
