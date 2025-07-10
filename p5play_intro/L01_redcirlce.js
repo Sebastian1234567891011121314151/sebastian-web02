@@ -1,6 +1,6 @@
 let x=50;
 let y=50;
-let gy=160;
+let gy=500;
 
 function setup(){
     new Canvas(600,600);
