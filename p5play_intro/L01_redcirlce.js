@@ -9,7 +9,7 @@ function setup(){
 function draw(){
     fill ("red");
     circle(x,y,50);
-    x=x +0,0
+    x=x +0.01
     fill ("yellow");
     circle(150,150,50);
 
