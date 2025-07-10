@@ -4,6 +4,6 @@ function setup(){
 }
 
 function draw(){
-    fill ("pink");
+    fill ("red");
     circle(150,150,250);
 }
