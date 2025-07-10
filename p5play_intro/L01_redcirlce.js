@@ -8,8 +8,8 @@ function draw(){
     circle(150,150,200);
 }
 function draw(){
-    fill ("");
+    fill ("yellow");
     circle(150,150,200);}
     function draw(){
-    fill ("red");
+    fill ("");
     circle(150,150,200);}
