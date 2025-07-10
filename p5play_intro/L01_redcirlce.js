@@ -8,6 +8,7 @@ function setup(){
 }
 
 function draw(){
+        background("white");
     fill ("red");
     circle(x,y,50);
     x=x +0.5
@@ -17,5 +18,5 @@ function draw(){
 
     fill ("green");
     circle(150,gy,50);
-    gy=gy-5
+    gy=gy-1
 }
