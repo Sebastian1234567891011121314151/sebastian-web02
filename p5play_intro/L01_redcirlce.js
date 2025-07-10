@@ -1,4 +1,4 @@
-let s
+let x=
 
 
 function setup(){
