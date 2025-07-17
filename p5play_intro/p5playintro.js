@@ -11,7 +11,7 @@ function setup() {
   fill("lightblue");
   strokeWeight (10);
   stroke ("red")
-  circle(50,40,60)
+  circle(50,100,60)
 
   rect(70,100,250,250)
 //  ball = new.Sprite ();
