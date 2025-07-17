@@ -26,7 +26,7 @@ function setup() {
  floor= new Sprite ();
  floor.w =600;
  floor.h =25
- floor.y=380
+ floor.y=600
   // End Basic shape testing
 
    // Create a bouncing ball sprite
