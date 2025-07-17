@@ -43,6 +43,7 @@ ball.bounciness= 0.99
 
 function draw() {
   background("red");
+if (ball.x>width){
 
 }
-if (ball.x>)
+}
