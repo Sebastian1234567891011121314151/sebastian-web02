@@ -24,7 +24,7 @@ function setup() {
  ball.color = "pink";
  ball.y =0;
  ball.vel.y=2;
-ball
+ball.bounciness= 0.5
 
  floor= new Sprite ();
  floor.w =800;
