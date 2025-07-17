@@ -14,7 +14,7 @@ function setup() {
   rect(70,100,250,250)
 
  
-  circle(100,300,60)
+  circle(150,200,60)
 
 //  ball = new.Sprite ();
 //  ball.diameter = 100;
