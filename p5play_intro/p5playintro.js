@@ -7,6 +7,8 @@ function setup() {
 
   // Basic shape testing
   // write your codes here
+
+  fill("")
 //  ball = new.Sprite ();
 //  ball.diameter = 100;
 //  ball.color = (navyblue);
