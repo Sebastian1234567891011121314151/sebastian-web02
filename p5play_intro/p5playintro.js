@@ -8,12 +8,14 @@ function setup() {
   // Basic shape testing
   // write your codes here
 
-  fill("lightblue");
+ 
+  rect(70,100,250,250)
+
+   fill("lightblue");
   strokeWeight (10);
   stroke ("red")
   circle(100,100,60)
 
-  rect(70,100,250,250)
 //  ball = new.Sprite ();
 //  ball.diameter = 100;
 //  ball.color = (navyblue);
