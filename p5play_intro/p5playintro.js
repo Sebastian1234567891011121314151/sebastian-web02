@@ -22,7 +22,7 @@ function setup() {
  ball = new Sprite ();
  ball.diameter = 100;
  ball.color = "pink";
- ball.y =300;
+ ball.y =50;
  ball.x =50
  ball.vel.x=5;
 ball.bounciness= 0.99
