@@ -21,7 +21,7 @@ function setup() {
 
  ball = new Sprite ();
  ball.diameter = 100;
- ball.color = "navyblue";
+ ball.color = "pink";
 
  floor= new Sprite ();
  floor.w =800;
