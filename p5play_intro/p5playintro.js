@@ -32,7 +32,7 @@ world.gravity.y = 10
  floor= new Sprite ();
  floor.w =800;
  floor.h =25
- floor.y=600
+ floor.y=300
  floor.collider= "static"
   // End Basic shape testing
 
