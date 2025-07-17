@@ -11,7 +11,7 @@ function setup() {
   strokeWeight (10);
   stroke ("red")
  
-  rect(200,300,250,250)
+  rect(,150,250,250)
 
  
   circle(120,200,50)
