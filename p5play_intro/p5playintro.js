@@ -24,7 +24,7 @@ function setup() {
  ball.color = "pink";
  ball.y =300;
  ball.x =50
- ball.vel.x=2;
+ ball.vel.x=5;
 ball.bounciness= 0.99
 
 // world.gravity.y = 10
