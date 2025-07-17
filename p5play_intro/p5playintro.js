@@ -24,7 +24,7 @@ function setup() {
  ball.color = "pink";
  ball.y =300;
  ball.x =50
- ball.vel.x=1;
+ ball.vel.x=2;
 ball.bounciness= 0.99
 
 // world.gravity.y = 10
@@ -44,6 +44,6 @@ ball.bounciness= 0.99
 function draw() {
   background("red");
 if (ball.x>width){
-ball.vel.x=-1*ball.vel.x
+ball.vel.x=-1*ball.vel.x;
 }
 }
