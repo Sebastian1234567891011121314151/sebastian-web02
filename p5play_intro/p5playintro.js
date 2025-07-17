@@ -10,7 +10,7 @@ function setup() {
 
   fill("lightblue");
   strokeWeight (10);
-  stroke
+  stroke ("red")
 //  ball = new.Sprite ();
 //  ball.diameter = 100;
 //  ball.color = (navyblue);
