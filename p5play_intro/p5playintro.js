@@ -23,6 +23,7 @@ function setup() {
  ball.diameter = 100;
  ball.color = "pink";
  ball.y =300;
+ ball.x =50
  ball.vel.x=1;
 ball.bounciness= 0.99
 
