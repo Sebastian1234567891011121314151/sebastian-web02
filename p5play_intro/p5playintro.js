@@ -2,12 +2,14 @@
 let ball;
 function setup() {
   // Set up the canvas
-  new Canvas(600, 400);
+  new Canvas(400,600);
   background(250); //background color
 
   // Basic shape testing
   // write your codes here
- 
+//  ball = new.Sprite ();
+//  ball.diameter = 100;
+//  ball.color = (navyblue);
   // End Basic shape testing
 
    // Create a bouncing ball sprite
