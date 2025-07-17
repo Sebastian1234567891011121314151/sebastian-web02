@@ -26,7 +26,7 @@ function setup() {
  ball.vel.x=1;
 ball.bounciness= 0.99
 
-world.gravity.x = 10
+world.gravity.y = 10
 
  floor= new Sprite ();
  floor.w =800;
