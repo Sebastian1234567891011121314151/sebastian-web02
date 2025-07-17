@@ -2,7 +2,7 @@ let floor;
 let ball;
 function setup() {
   // Set up the canvas
-  new Canvas(600,600);
+  new Canvas(800,600);
   background(250); //background color
 
   // Basic shape testing
