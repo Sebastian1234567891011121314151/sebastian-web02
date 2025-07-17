@@ -12,6 +12,8 @@ function setup() {
   strokeWeight (10);
   stroke ("red")
   circle(40,40,60)
+
+  rect
 //  ball = new.Sprite ();
 //  ball.diameter = 100;
 //  ball.color = (navyblue);
