@@ -14,7 +14,7 @@ function setup() {
   rect(75,100,250,250)
 
  
-  circle(150,200,50)
+  circle(23,200,50)
   circle(280,200,50)
   rect(170,250,60,100)
    circle(120,200,50)
