@@ -39,6 +39,6 @@ ball.bounciness= 0.5
 }
 
 function draw() {
-  background("blue");
+  background("navyblue");
 
 }
