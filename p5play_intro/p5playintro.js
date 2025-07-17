@@ -23,10 +23,10 @@ function setup() {
  ball.diameter = 100;
  ball.color = "pink";
  ball.y =0;
- ball.vel.y=2;
+ ball.vel.x=1;
 ball.bounciness= 0.99
 
-world.gravity.y = 10
+world.gravity.x = 10
 
  floor= new Sprite ();
  floor.w =800;
