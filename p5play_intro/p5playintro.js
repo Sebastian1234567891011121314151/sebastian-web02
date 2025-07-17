@@ -24,7 +24,7 @@ function setup() {
  ball.color = "navyblue";
 
  floor= new Sprite ();
- floor.w =600;
+ floor.w =800;
  floor.h =25
  floor.y=600
   // End Basic shape testing
