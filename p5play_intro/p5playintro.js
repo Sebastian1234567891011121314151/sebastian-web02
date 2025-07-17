@@ -1,4 +1,4 @@
-
+let floor
 let ball;
 function setup() {
   // Set up the canvas
@@ -17,7 +17,7 @@ function setup() {
   circle(120,200,50)
   circle(280,200,50)
   rect(170,250,60,100)
-   circle(225,300,10)
+   circle(210,300,10)
 
 //  ball = new.Sprite ();
 //  ball.diameter = 100;
