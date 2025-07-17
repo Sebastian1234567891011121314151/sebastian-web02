@@ -3,7 +3,7 @@ let ball;
 function setup() {
   // Set up the canvas
   new Canvas(800,600);
-  background.color; //background color
+  background("blue"); //background color
 
   // Basic shape testing
   // write your codes here
