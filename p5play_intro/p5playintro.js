@@ -45,3 +45,4 @@ function draw() {
   background("red");
 
 }
+if (ball.x>)
