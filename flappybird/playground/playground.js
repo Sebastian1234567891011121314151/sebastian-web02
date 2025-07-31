@@ -12,5 +12,5 @@ background("gray");
 }
 
 function draw(){
-ima
+image
 }
