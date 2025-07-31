@@ -2,7 +2,7 @@
 
 let bird, floor;
 let bg, base;
-function preload({
+function preload(){
 
 }
 function setup(){
