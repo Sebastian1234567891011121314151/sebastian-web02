@@ -2,5 +2,8 @@
 
 function setup(){
 
+}
 
+function draw(){
+    
 }
