@@ -3,7 +3,7 @@
 let bird, floor;
 let bg, base;
 function preload(){
-bg = loadImage
+bg = loadImage('assets')
 }
 function setup(){
 new Canvas(400,600);
