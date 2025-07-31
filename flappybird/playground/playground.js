@@ -12,5 +12,5 @@ background("gray");
 }
 
 function draw(){
-image(bg,0,0,innerWidth.height)
+image(bg,0,0,width.height)
 }
