@@ -15,9 +15,10 @@ new Canvas(400,600);
 background("gray");
 
 bird=new Sprite();
-bird.img=flapMidImg
-bird.y=200
-bird.width=
+bird.img=flapMidImg;
+bird.y=200;
+bird.width=30;
+
 
 
 
