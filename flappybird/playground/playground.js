@@ -35,7 +35,7 @@ floor.collider= "static";
 floor.img=base;
 floor.y=height - 20;
 floor.width= 400;
-floor.height=100;
+floor.height=115;
 }
 
 function draw(){
