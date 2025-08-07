@@ -41,10 +41,19 @@ mouseY.bouniness=0.9
 
 function draw(){
 image(bg,0,0,width,height);
-if (mouse.presses("left")){
-    new Sprite(mouseX,mouseY,30,30,"dynamic")
+// if (mouse.presses("left")){
+//     new Sprite(mouseX,mouseY,30,30,"dynamic")
+// }
+// if (mouse.presses("right")){
+//     new Sprite(mouseX,mouseY,30,30,"static")
+
+if (kb.presses("space")||mouse.presses("left")){
+    bird.vel.y=-5;
+    bird.sleeping=false;
 }
-if (mouse.presses("right")){
-    new Sprite(mouseX,mouseY,30,30,"static")
-}
+fill("black")
+textSize(14)
+text('vel.y:'+bird.vel.y.toFixed(2),10,20)
+text('is moving:' + bird.isMoving, 10,40)
+text('sleeping:' + bird.sleeping, 10,60)
 }
