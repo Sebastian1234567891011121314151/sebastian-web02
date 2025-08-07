@@ -2,6 +2,7 @@
 
 let bird, floor;
 let bg, base;
+
 function preload(){
 bg = loadImage('assets/background-day.png');
 base = loadImage('assets/base.png');
