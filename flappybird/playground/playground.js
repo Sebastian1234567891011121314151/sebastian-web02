@@ -2,7 +2,7 @@
 
 let bird, floor;
 let bg, base;
-let flapMidImg,flapDOwnIm
+let flapMidImg,flapDownImg,flapUpImg
 function preload(){
 bg = loadImage('assets/background-day.png');
 base = loadImage('assets/base.png');
