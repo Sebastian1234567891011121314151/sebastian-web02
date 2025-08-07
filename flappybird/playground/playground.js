@@ -21,7 +21,7 @@ bird.width=30;
 bird.height=30;
 bird.mass=2;
 bird.drag=0.02;
-bird.bounciness=0.99;
+bird.bounciness=0.1;
 
 world.gravity.y= 10;
 
@@ -34,7 +34,7 @@ floor.collider= "static";
 floor.img=base;
 floor.y=height - 20
 floor.width= 400
-floor.height=
+floor.height=125
 }
 
 function draw(){
