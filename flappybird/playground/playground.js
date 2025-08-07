@@ -36,12 +36,12 @@ floor.img=base;
 floor.y=height - 20;
 floor.width= 400;
 floor.height=117;
-mouseX.bouniness=0.3
+mouseX.bouniness=0.9
 }
 
 function draw(){
 image(bg,0,0,width,height);
 if (mouse.presses("left")){
-    newSprite(mouseX,mouseY,30,30,"dynamic")
+    new Sprite(mouseX,mouseY,30,30,"dynamic")
 }
 }
