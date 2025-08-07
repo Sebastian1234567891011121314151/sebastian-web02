@@ -32,9 +32,9 @@ world.gravity.y= 10;
 floor= new Sprite();
 floor.collider= "static";
 floor.img=base;
-floor.y=height - 20
-floor.width= 400
-floor.height=125
+floor.y=height - 20;
+floor.width= 400;
+floor.height=100;
 }
 
 function draw(){
