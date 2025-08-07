@@ -16,7 +16,7 @@ background("gray");
 
 bird=new Sprite();
 bird.img=flapMidImg
-
+bird.y=200
 
 
 
