@@ -6,7 +6,7 @@ let flapMidImg,flapDownImg,flapUpImg;
 function preload(){
 bg = loadImage('assets/background-day.png');
 base = loadImage('assets/base.png');
-flapDownImg=loadImage('assets/')
+flapDownImg=loadImage('assets/bluebird-downflap.png')
 }
 function setup(){
 new Canvas(400,600);
