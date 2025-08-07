@@ -13,8 +13,15 @@ flapUpImg=loadImage('assets/bluebird-upflap.png');
 function setup(){
 new Canvas(400,600);
 background("gray");
+
 bird=new Sprite();
 bird.img=flapMidImg
+
+
+
+
+
+
 floor= new Sprite();
 floor.collider= "static";
 floor.img=base;
