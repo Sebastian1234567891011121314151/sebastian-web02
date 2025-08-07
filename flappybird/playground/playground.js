@@ -36,7 +36,7 @@ floor.img=base;
 floor.y=height - 20;
 floor.width= 400;
 floor.height=117;
-mouseX.bouniness=0.9
+mouseY.bouniness=0.9
 }
 
 function draw(){
