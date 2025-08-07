@@ -2,11 +2,11 @@
 
 let bird, floor;
 let bg, base;
-let flapMidImg,flapDownImg,flapUpImg
+let flapMidImg,flapDownImg,flapUpImg;
 function preload(){
 bg = loadImage('assets/background-day.png');
 base = loadImage('assets/base.png');
-
+flapDownImg
 }
 function setup(){
 new Canvas(400,600);
