@@ -10,6 +10,7 @@ function setup(){
 new Canvas(400,600);
 background("gray");
 floor= new Sprite();
+floor.collider= "Static"
 floor.img=base;
 floor.y=height - 20
 }
