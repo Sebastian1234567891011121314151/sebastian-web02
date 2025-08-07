@@ -21,7 +21,7 @@ bird.width=30;
 bird.height=30;
 bird.mass=2;
 bird.drag=0.02;
-bird.bounciness=1;
+bird.bounciness=0.99;
 
 world.gravity.y= 10;
 
