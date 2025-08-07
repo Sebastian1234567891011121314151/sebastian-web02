@@ -22,7 +22,7 @@ bird.height=30;
 bird.mass=2;
 bird.drag=0.02;
 bird.bounciness=0.1;
-bird.collider
+bird.collider="dynamic"
 
 world.gravity.y= 10;
 
