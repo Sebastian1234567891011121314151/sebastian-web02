@@ -36,9 +36,12 @@ floor.img=base;
 floor.y=height - 20;
 floor.width= 400;
 floor.height=117;
-mouseX.
+mouseX.bouniness=0.3
 }
 
 function draw(){
 image(bg,0,0,width,height);
+if (mouse.presses("left")){
+    
+}
 }
