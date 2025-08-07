@@ -14,7 +14,7 @@ function setup(){
 new Canvas(400,600);
 background("gray");
 bird=new Sprite();
-bird
+bird.img=flap
 floor= new Sprite();
 floor.collider= "static";
 floor.img=base;
