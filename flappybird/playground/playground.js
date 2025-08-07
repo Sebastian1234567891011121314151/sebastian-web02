@@ -20,6 +20,7 @@ bird.y=200;
 bird.width=30;
 bird.height=30;
 bird.mass=2;
+bird.drag=
 
 
 
