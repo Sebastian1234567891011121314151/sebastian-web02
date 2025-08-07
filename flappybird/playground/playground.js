@@ -14,5 +14,5 @@ background("gray");
 
 function draw(){
 image(bg,0,0,width,height);
-image(base,0,0,witdh)
+image(base,0,0,width,height)
 }
