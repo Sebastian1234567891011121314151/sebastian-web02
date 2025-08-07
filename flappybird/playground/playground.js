@@ -42,6 +42,6 @@ mouseX.bouniness=0.3
 function draw(){
 image(bg,0,0,width,height);
 if (mouse.presses("left")){
-    
+    newSprite(mouseX)
 }
 }
