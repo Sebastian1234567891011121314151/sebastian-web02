@@ -11,6 +11,7 @@ new Canvas(400,600);
 background("gray");
 new floor= new Sprite();
 floor.img=base;
+floor.y=200
 }
 
 function draw(){
