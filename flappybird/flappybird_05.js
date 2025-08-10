@@ -1,5 +1,3 @@
-// playground
-
 let bird, floor;
 let bg, base;
 let flapMidImg,flapDownImg,flapUpImg;
@@ -70,5 +68,3 @@ function draw(){
         bird.img=flapMidImg;
         bird.rotation= 0;
     }
-
-}
