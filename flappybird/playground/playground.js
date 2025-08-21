@@ -75,7 +75,7 @@ function draw(){
         bird.rotation= 0;
     }
 
-bird.x=bird.x+4;
+bird.x=bird.x+1;
 camera.x=bird.x;
 floor.x=bird.x
 
