@@ -103,7 +103,7 @@ spawnPipePair();
 // My custom function
 function spawnPipePair() {
 let gap=30;
-let midY=height/2;
+let midY=random(250,height-250);
 
 bottomPipe=new Sprite(+400, midY+200+gap/2, 52,320,"static");
 bottomPipe.img=pipeImg;
