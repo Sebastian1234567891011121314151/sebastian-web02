@@ -79,6 +79,10 @@ bird.x=bird.x+3;
 camera.x=bird.x;
 floor.x=bird.x;
 
+if (bird.collides)
+
+
+
 
 
 if(frameCount % 120 === 0){
