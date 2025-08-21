@@ -89,7 +89,6 @@ spawnPipePair();
     text('is moving:' + bird.isMoving, 10,40);
     text('sleeping:' + bird.sleeping, 10,60);
     text('pipes count:'+pipeGroup.length, 10,80);
-
 }// last line
 
 // My custom function
