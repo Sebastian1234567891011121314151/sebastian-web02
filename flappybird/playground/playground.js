@@ -77,4 +77,7 @@ function draw(){
         bird.rotation= 0;
     }
 
-}
+
+
+
+}// last line
