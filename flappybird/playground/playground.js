@@ -7,6 +7,7 @@ let flapMidImg,flapDownImg,flapUpImg;
 let pipeGroup;
 let pipeImg;
 let bottomePipe,topPipe;
+
 function preload(){
 bg = loadImage('assets/background-day.png');
 base = loadImage('assets/base.png');
