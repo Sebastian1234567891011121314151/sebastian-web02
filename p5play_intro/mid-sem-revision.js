@@ -1,4 +1,6 @@
 function setup(){
-new Canvas(grey)
+new Canvas()
 }
-function draw(){}
+function draw(){
+
+}
