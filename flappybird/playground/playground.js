@@ -93,7 +93,7 @@ spawnPipePair();
 
 // My custom function
 function spawnPipePair() {
-let gap=20;
+let gap=30;
 let midY=height/2;
 
 
