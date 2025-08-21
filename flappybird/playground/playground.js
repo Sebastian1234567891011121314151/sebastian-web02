@@ -103,5 +103,5 @@ bottomPipe=new Sprite(150, midY+200+gap/2, 52,320,"static");
 bottomPipe.img=pipeImg;
 
 pipeGroup.add(bottomPipe);
-pipeGroup
+pipeGroup.layer=0
 }
