@@ -85,9 +85,9 @@ spawnPipePair();
 // DEBUGGING CODE
     fill("black")
     textSize(14)
-    text('vel.y:'+bird.vel.y.toFixed(2),10,20)
-    text('is moving:' + bird.isMoving, 10,40)
-    text('sleeping:' + bird.sleeping, 10,60)
+    text('vel.y:'+bird.vel.y.toFixed(2),10,20);
+    text('is moving:' + bird.isMoving, 10,40);
+    text('sleeping:' + bird.sleeping, 10,60);
     text('pipes count:'+pipeGroup.length, 10,80);
 
 }// last line
@@ -103,8 +103,8 @@ pipeGroup.add(bottomPipe);
 
 topPipe =new Sprite(400,midY-gap/2-200,52,320,"static")
 topPipe.img=pipeImg;
-topPipe.rotation=180
+topPipe.rotation=180;
 pipeGroup.add(topPipe);
 
-pipeGroup.layer=0
+pipeGroup.layer=0;
 }
