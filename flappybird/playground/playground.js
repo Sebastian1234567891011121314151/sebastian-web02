@@ -103,7 +103,7 @@ bottomPipe=new Sprite(150, midY+200+gap/2, 52,320,"static");
 bottomPipe.img=pipeImg;
 pipeGroup.add(bottomPipe);
 
-topPipe =new Sprite(150,midY-gap,52,320,"static")
+topPipe =new Sprite(150,midY-gap/2-200,52,320,"static")
 topPipe.img=pipeImg;
 topPipe.rotation=180
 pipeGroup.add(topPipe);
