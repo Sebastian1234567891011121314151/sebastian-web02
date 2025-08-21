@@ -1,7 +1,7 @@
 let floor;
 function setup(){
 new Canvas(600,400);
-floor=new Sprite(300,200)
+floor=new Sprite(300,200,100,40)
 
 
 }
