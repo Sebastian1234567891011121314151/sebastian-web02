@@ -87,7 +87,7 @@ spawnPipePair();
 
 
 for (let aPipe of pipeGroup){
-    aPipe.x
+    -aPipe.x
 }
 
 
