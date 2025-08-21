@@ -79,7 +79,7 @@ bird.x=bird.x+3;
 camera.x=bird.x;
 floor.x=bird.x;
 
-if (bird.collides(floor)){
+if (bird.collides(floor)||bird.collides){
     noLoop();
 }
 
