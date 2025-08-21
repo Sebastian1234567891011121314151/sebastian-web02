@@ -104,6 +104,7 @@ bottomPipe.img=pipeImg;
 
 
 pipeGroup.add(bottomPipe);
+pipeGroup.add(topPipe);
 
 pipeGroup.layer=0
 
