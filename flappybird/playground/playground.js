@@ -91,5 +91,5 @@ spawnPipePair();
 
 }// last line
 
-// My custion function
+// My custom function
 function spawnPipePair() {}
