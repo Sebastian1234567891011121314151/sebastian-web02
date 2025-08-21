@@ -91,5 +91,5 @@ spawnPipePair();
 
 }// last line
 
-// My custion fu
+// My custion function
 function spawnPipePair() {}
