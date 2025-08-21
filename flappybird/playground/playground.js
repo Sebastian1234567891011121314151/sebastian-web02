@@ -81,7 +81,7 @@ floor.x=bird.x
 
 
 
-if(frameCount % 60 === 1){
+if(frameCount % 60 === 0){
 spawnPipePair();
 }
 
