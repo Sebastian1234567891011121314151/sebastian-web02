@@ -76,7 +76,7 @@ function draw(){
         bird.img=flapMidImg;
         bird.rotation= 0;
     }
-
+pipeGroup-new 
 
 
 
