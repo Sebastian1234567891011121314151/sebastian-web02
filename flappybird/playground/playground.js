@@ -101,12 +101,13 @@ let midY=height/2;
 
 bottomPipe=new Sprite(150, midY+200+gap/2, 52,320,"static");
 bottomPipe.img=pipeImg;
-topPipe.img=pipeImg;
+
 
 pipeGroup.add(bottomPipe);
 
 pipeGroup.layer=0
 
 topPipe =new Sprite(150,0,52,320,"static")
+topPipe.img=pipeImg;
 topPipe.rotation=180
 }
