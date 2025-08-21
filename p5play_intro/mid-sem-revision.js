@@ -9,6 +9,6 @@ world.gravity.y= 10;
 function draw(){
 background(220);
 if (mouse.presses("left")){
-    balls= new Sprite(mousex,mousey,)
+    balls= new Sprite(mousex,mousey,40,40)
 }
 }
