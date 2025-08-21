@@ -81,14 +81,14 @@ floor.x=bird.x;
 
 
 
-if(frameCount % 80 === 0){
+if(frameCount % 120 === 0){
 spawnPipePair();
 }
 
 
 for (let aPipe of pipeGroup){
     if (camera.x-aPipe.x >300+25){
-        a
+        aPipe.remove()
     }
 }
 
