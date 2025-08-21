@@ -93,7 +93,6 @@ spawnPipePair();
 
 // My custom function
 function spawnPipePair() {
-bottomPipe=newSprite()
-
-
+bottomPipe=newSprite(150, height/2, 52,320,"static")
+bottomPipe.img=pipeImg
 }
