@@ -75,6 +75,11 @@ function draw(){
         bird.rotation= 0;
     }
 
+bird.x=bird.x+4;
+camera.x=bird.x;
+floor.x=bird.x
+
+
 
 if(frameCount === 1){
 spawnPipePair();
