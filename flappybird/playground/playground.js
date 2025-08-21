@@ -82,7 +82,7 @@ spawnPipePair();
 
 
 
-// 
+// DEBUGGING CODE
     fill("black")
     textSize(14)
     text('vel.y:'+bird.vel.y.toFixed(2),10,20)
