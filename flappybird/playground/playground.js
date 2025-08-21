@@ -93,7 +93,7 @@ spawnPipePair();
 
 // My custom function
 function spawnPipePair() {
+bottomPipe=newSprite()
 
 
-    
 }
