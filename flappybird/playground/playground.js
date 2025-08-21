@@ -107,7 +107,7 @@ for (let aPipe of pipeGroup){
 // My custom function
 function spawnPipePair() {
 let gap=30;
-let midY=random(250,height-250);
+let midY=random(400,height-400);
 
 bottomPipe=new Sprite(bird.x+400, midY+200+gap/2, 52,320,"static");
 bottomPipe.img=pipeImg;
