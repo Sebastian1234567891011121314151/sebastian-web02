@@ -92,4 +92,4 @@ spawnPipePair();
 }// last line
 
 
-function spawnPipePair(){}
+function spawnPipePair() {}
