@@ -87,7 +87,9 @@ spawnPipePair();
 
 
 for (let aPipe of pipeGroup){
-    -aPipe.x
+    if (camera.x-aPipe.x >300+25){
+        a
+    }
 }
 
 
