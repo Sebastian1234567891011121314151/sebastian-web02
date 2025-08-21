@@ -81,7 +81,7 @@ floor.x=bird.x;
 
 
 
-if(frameCount % 100 === 0){
+if(frameCount % 60 === 0){
 spawnPipePair();
 }
 
@@ -102,7 +102,7 @@ spawnPipePair();
 
 // My custom function
 function spawnPipePair() {
-let gap=40;
+let gap=30;
 let midY=random(250,height-250);
 
 bottomPipe=new Sprite(bird.x+400, midY+200+gap/2, 52,320,"static");
