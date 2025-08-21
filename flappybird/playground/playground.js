@@ -9,12 +9,12 @@ let pipeImg;
 let bottomePipe,topPipe;
 
 function preload(){
-bg = loadImage('assets/background-day.png');
-base = loadImage('assets/base.png');
-flapDownImg=loadImage('assets/bluebird-downflap.png');
-flapMidImg=loadImage('assets/bluebird-midflap.png');
-flapUpImg=loadImage('assets/bluebird-upflap.png');
-pipeImg=loadImage('assets/pipe-red.png');
+    bg = loadImage('assets/background-day.png');
+    base = loadImage('assets/base.png');
+    flapDownImg=loadImage('assets/bluebird-downflap.png');
+    flapMidImg=loadImage('assets/bluebird-midflap.png');
+    flapUpImg=loadImage('assets/bluebird-upflap.png');
+    pipeImg=loadImage('assets/pipe-red.png');
 }
 function setup(){
 new Canvas(400,600);
