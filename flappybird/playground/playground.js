@@ -86,7 +86,9 @@ spawnPipePair();
 }
 
 
-for (let aPipe of pipeGroup)
+for (let aPipe of pipeGroup){
+    aPipe.x
+}
 
 
 // DEBUGGING CODE
