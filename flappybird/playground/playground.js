@@ -14,6 +14,7 @@ base = loadImage('assets/base.png');
 flapDownImg=loadImage('assets/bluebird-downflap.png');
 flapMidImg=loadImage('assets/bluebird-midflap.png');
 flapUpImg=loadImage('assets/bluebird-upflap.png');
+pipeImg=load
 }
 function setup(){
 new Canvas(400,600);
