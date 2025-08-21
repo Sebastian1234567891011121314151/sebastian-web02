@@ -99,6 +99,6 @@ let midY=height/2;
 
 
 
-bottomPipe=newSprite(150, height/2, 52,320,"static");
+bottomPipe=new Sprite(150, height/2, 52,320,"static");
 bottomPipe.img=pipeImg;
 }
