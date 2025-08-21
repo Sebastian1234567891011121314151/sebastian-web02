@@ -74,7 +74,7 @@ function draw(){
 pipeGroup = new Group();
 
 
-
+if(framCount ===1)
 
 
 
