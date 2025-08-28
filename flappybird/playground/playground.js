@@ -157,5 +157,5 @@ pipeGroup.layer=0;
 function startGame(){
     if (kb.presses("space")||mouse.presses("left"))
     startGame=true;
-startScreenLabel="dynamic"
+startScreenLabel.visible=false
     }
