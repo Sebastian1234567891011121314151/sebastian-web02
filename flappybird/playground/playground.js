@@ -68,7 +68,7 @@ function draw(){
     // }
     // if (mouse.presses("right")){
     //     new Sprite(mouseX,mouseY,30,30,"static")
-startGame()
+
     if(startGame === true){
 
 
@@ -154,8 +154,4 @@ pipeGroup.add(topPipe);
 pipeGroup.layer=0;
 }
 }
-function startGame(){
-    if (kb.presses("space")||mouse.presses("left"))
-    startGame=true;
-startScreenLabel.visible=false
-}
+
