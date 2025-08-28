@@ -202,6 +202,6 @@ function spawnPipePair() {
     pipeGroup.add(topPipe);
 
     pipeGroup.layer=0;
-}
+}// funtion setup last line
 
 
