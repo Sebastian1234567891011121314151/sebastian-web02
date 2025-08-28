@@ -77,7 +77,7 @@ startScreenLabel.visible=false
     if(startGame === true){
 
 bird.visible=true;
-bird.collider
+bird.collider="dynamic"
 
 
 
