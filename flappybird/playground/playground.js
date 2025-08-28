@@ -9,6 +9,8 @@ let pipeImg;
 let bottomePipe,topPipe;
 let gameOverImg, gameOverLabel;
 
+let 
+
 function preload(){
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png');
@@ -21,7 +23,7 @@ function preload(){
 
     gameOverImg=loadImage('assets/gameover.png');
 
-    
+
 }// asset loading
 function setup(){
 new Canvas(400,600);
