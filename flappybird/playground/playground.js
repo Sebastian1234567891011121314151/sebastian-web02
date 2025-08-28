@@ -84,7 +84,7 @@ bird.x=bird.x+3;
 camera.x=bird.x;
 floor.x=bird.x;
 
-if (bird.collides(floor)||bird.collides(pipeGroup)){
+if (bird.collides(floor) || bird.collides(pipeGroup)){
     gameOverLabel = new Sprite (width/2, height/2, 192, 42, "none");
     gameOverLabel.img = gameOverImg
     gameOverLabel.layer=1000;
