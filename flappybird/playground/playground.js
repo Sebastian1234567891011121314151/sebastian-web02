@@ -16,6 +16,7 @@ function preload(){
     flapMidImg=loadImage('assets/bluebird-midflap.png');
     flapUpImg=loadImage('assets/bluebird-upflap.png');
     pipeImg=loadImage('assets/pipe-red.png');
+        pipeImg=loadImage('assets/pipe-red.png');
 }// asset loading
 function setup(){
 new Canvas(400,600);
