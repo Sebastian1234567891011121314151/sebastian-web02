@@ -154,3 +154,7 @@ pipeGroup.add(topPipe);
 pipeGroup.layer=0;
 }
 }
+function startGame(){
+    if (kb.presses("space")||mouse.presses("left"))
+    start
+    }
