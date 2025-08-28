@@ -57,6 +57,7 @@ mouseY.bouniness=0.9;
 
 pipeGroup = new Group();
 
+startScreenLabel.visible=true
 startScreenLabel= new Sprite(width/2, height/2, 184,267,"none");
 startScreenLabel.img= startScreenImg;
 }
