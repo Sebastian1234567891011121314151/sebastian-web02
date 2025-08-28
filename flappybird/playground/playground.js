@@ -67,6 +67,8 @@ function draw(){
     // if (mouse.presses("right")){
     //     new Sprite(mouseX,mouseY,30,30,"static")
 
+    if(start)
+
     if (kb.presses("space")||mouse.presses("left")){
         bird.vel.y=-5;
         bird.sleeping=false;
