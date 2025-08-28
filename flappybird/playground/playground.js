@@ -12,10 +12,13 @@ let gameOverImg, gameOverLabel;
 function preload(){
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png');
+    
     flapDownImg=loadImage('assets/bluebird-downflap.png');
     flapMidImg=loadImage('assets/bluebird-midflap.png');
     flapUpImg=loadImage('assets/bluebird-upflap.png');
+
     pipeImg=loadImage('assets/pipe-red.png');
+
     gameOverImg=loadImage('assets/gameover.png');
 }// asset loading
 function setup(){
