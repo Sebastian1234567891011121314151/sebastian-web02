@@ -12,7 +12,7 @@ let gameOverImg, gameOverLabel;
 function preload(){
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png');
-    
+
     flapDownImg=loadImage('assets/bluebird-downflap.png');
     flapMidImg=loadImage('assets/bluebird-midflap.png');
     flapUpImg=loadImage('assets/bluebird-upflap.png');
@@ -85,6 +85,7 @@ camera.x=bird.x;
 floor.x=bird.x;
 
 if (bird.collides(floor)||bird.collides(pipeGroup)){
+    gameOverLabel
     noLoop();
 }
 
