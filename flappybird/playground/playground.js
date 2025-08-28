@@ -70,10 +70,10 @@ function draw(){
     // if (mouse.presses("right")){
     //     new Sprite(mouseX,mouseY,30,30,"static")
 
-if (kb.presses("space")||mouse.presses("left"))
+if (kb.presses("space")||mouse.presses("left")) {
     startGame=true;
 startScreenLabel.visible=false
-
+}
 
     if(startGame === true){
 
