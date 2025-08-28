@@ -55,6 +55,8 @@ mouseY.bouniness=0.9;
 
 pipeGroup = new Group();
 
+startScreenImg= new Sprite();
+
 }
 
 function draw(){
