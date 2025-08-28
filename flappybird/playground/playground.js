@@ -158,4 +158,4 @@ function startGame(){
     if (kb.presses("space")||mouse.presses("left"))
     startGame=true;
 startScreenLabel.visible=false
-    }
+}
