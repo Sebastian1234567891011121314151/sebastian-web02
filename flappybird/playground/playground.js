@@ -7,7 +7,7 @@ let flapMidImg,flapDownImg,flapUpImg;
 let pipeGroup;
 let pipeImg;
 let bottomePipe,topPipe;
-let gameOverImg
+let gameOverImg, gameOverLabel;
 
 function preload(){
     bg = loadImage('assets/background-day.png');
