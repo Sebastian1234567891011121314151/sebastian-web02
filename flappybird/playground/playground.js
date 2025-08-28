@@ -9,7 +9,7 @@ let pipeImg;
 let bottomePipe,topPipe;
 let gameOverImg, gameOverLabel;
 
-let 
+let startScreenImg, startScreenLabel;
 
 function preload(){
     bg = loadImage('assets/background-day.png');
