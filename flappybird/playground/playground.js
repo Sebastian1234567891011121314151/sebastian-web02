@@ -75,20 +75,20 @@ startScreenLabel.img= startScreenImg;
 function draw(){
     image(bg,0,0,width,height);
     // if (mouse.presses("left")){
-    //     new Sprite(mouseX,mouseY,30,30,"dynamic")
+    //     new Sprite(mouseX,mouseY,30,30,"dynamic");
     // }
     // if (mouse.presses("right")){
-    //     new Sprite(mouseX,mouseY,30,30,"static")
+    //     new Sprite(mouseX,mouseY,30,30,"static");
 
 if (kb.presses("space")||mouse.presses()) {
     startGame=true;
-    startScreenLabel.visible=false
+    startScreenLabel.visible=false;
 }
 
     if(startGame === true){
 
         bird.visible=true;
-        bird.collider="dynamic"
+        bird.collider="dynamic";
 
     
 
