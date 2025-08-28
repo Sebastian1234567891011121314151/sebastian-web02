@@ -20,6 +20,8 @@ function preload(){
     pipeImg=loadImage('assets/pipe-red.png');
 
     gameOverImg=loadImage('assets/gameover.png');
+
+    
 }// asset loading
 function setup(){
 new Canvas(400,600);
