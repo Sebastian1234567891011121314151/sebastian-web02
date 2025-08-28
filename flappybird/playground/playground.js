@@ -153,6 +153,6 @@ function spawnPipePair() {
     pipeGroup.add(topPipe);
 
     pipeGroup.layer=0;
-    }
+}
 
 
