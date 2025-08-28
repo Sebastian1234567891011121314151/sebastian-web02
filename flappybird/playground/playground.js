@@ -12,6 +12,18 @@ let gameOverImg, gameOverLabel;
 let startScreenImg, startScreenLabel;
 
 let startGame= false
+
+
+
+
+
+
+
+
+
+
+
+
 function preload(){
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png');
@@ -161,6 +173,9 @@ if (kb.presses("space")||mouse.presses()) {
         text('frame count:'+frameCount, 10,100);
     }
 }// last line
+
+
+
 
 
 
