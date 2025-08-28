@@ -26,6 +26,11 @@ function preload(){
 
     startScreenImg=loadImage('assets/message.png')
 }// asset loading
+
+
+
+
+
 function setup(){
 new Canvas(400,600);
 background("gray");
@@ -61,6 +66,11 @@ pipeGroup = new Group();
 startScreenLabel= new Sprite(width/2, height/2, 184,267,"none");
 startScreenLabel.img= startScreenImg;
 }
+
+
+
+
+
 
 function draw(){
     image(bg,0,0,width,height);
@@ -137,6 +147,11 @@ if (kb.presses("space")||mouse.presses()) {
         text('frame count:'+frameCount, 10,100);
     }
 }// last line
+
+
+
+
+
 
 // My custom function
 function spawnPipePair() {
