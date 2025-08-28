@@ -23,7 +23,7 @@ function preload(){
 
     gameOverImg=loadImage('assets/gameover.png');
 
-
+    startScreenImg=
 }// asset loading
 function setup(){
 new Canvas(400,600);
