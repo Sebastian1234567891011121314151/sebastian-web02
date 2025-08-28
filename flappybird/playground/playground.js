@@ -147,7 +147,7 @@ if (kb.presses("space")||mouse.presses()) {
             gameOverLabel.layer=1000;
             gameOverLabel.x = camera.x;
              if (kb.presses("space")||mouse.presses("left")){
-             
+             draw()
         }
         }
 
