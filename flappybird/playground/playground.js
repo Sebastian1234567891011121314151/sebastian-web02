@@ -76,7 +76,7 @@ function draw(){
 
 
 
-    }
+    
 
     if (kb.presses("space")||mouse.presses("left")){
         bird.vel.y=-5;
@@ -151,4 +151,5 @@ topPipe.rotation=180;
 pipeGroup.add(topPipe);
 
 pipeGroup.layer=0;
+}
 }
