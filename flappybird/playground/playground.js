@@ -141,6 +141,3 @@ pipeGroup.add(topPipe);
 
 pipeGroup.layer=0;
 }
-function startscreen(){
-    
-}
