@@ -55,8 +55,8 @@ mouseY.bouniness=0.9;
 
 pipeGroup = new Group();
 
-startScreenLabel= new Sprite(width/2, hieght/2, 184,);
-
+startScreenLabel= new Sprite(width/2, hieght/2, 184,267,"none");
+startScreenLabel
 }
 
 function draw(){
