@@ -87,7 +87,7 @@ if (bird.collides(floor)||bird.collides(pipeGroup)){
 
 
 
-if(frameCount % 120 === 0){
+if(frameCount % 90 === 0){
 spawnPipePair();
 }
 
