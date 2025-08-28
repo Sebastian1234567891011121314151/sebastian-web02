@@ -38,8 +38,8 @@ bird.height=24;
 bird.mass=2;
 bird.drag=0.02;
 bird.bounciness=0.1;
-bird.collider="static"
-
+bird.collider="static";
+bird.visible = false;
 
 world.gravity.y= 10;
 
