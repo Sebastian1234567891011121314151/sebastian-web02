@@ -37,7 +37,7 @@ function preload(){
     gameOverImg=loadImage('assets/gameover.png');
 
     startScreenImg=loadImage('assets/message.png')
-}// asset loading
+}// funtion preload last line
 
 
 
