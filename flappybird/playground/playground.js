@@ -11,6 +11,7 @@ let gameOverImg, gameOverLabel;
 
 let startScreenImg, startScreenLabel;
 
+let
 function preload(){
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png');
