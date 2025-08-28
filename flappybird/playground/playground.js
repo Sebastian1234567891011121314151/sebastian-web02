@@ -56,7 +56,7 @@ mouseY.bouniness=0.9;
 pipeGroup = new Group();
 
 startScreenLabel= new Sprite(width/2, hieght/2, 184,267,"none");
-startScreenLabel.img=
+startScreenLabel.img= startScreenImg;
 }
 
 function draw(){
@@ -140,4 +140,7 @@ topPipe.rotation=180;
 pipeGroup.add(topPipe);
 
 pipeGroup.layer=0;
+}
+function startscreen(){
+    
 }
