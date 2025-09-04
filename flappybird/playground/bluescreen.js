@@ -12,7 +12,17 @@ function setup(){
 }
 
 function preload(){
+
+
+        let prefix = "assets/";
+    let postfix= ".png";
+    for (let count=0; count<10; count++){
+        let filename= prefix+ count+ postfix;
+        console.log(filename);
+    }
+
     digit0=loadImage('assets/0.png');
+
 }
 
 
