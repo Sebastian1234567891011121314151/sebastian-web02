@@ -1,21 +1,14 @@
 let score = 0;
 // let digit0;
 let digitImgs= [];
-let scoreGroup;
-
 function setup(){
     new Canvas (400,600);
     background("lightblue");
 
-    scoreGroup = new Group();
-    scoreGroup.collider = "none";
-    scoreGroup.layer =1000;
 
 
 
-
-
-
+    scoreSprite = new Sprite(200,300,24,36,"none");
     // scoreSprite.img = digit0;
 
 
@@ -52,22 +45,6 @@ function draw(){
         score--;
 
     }
-score = constrain(score,0,99);
-displayScore();
+score = constrain(score,0,9);
 
-
-
-
-}
-function displayScore(){
-    // scoreSprite.img = digitImgs[0];
-
-    scoreGroup.removeAll();
-
-    let scoreString= str(score);
-    let scoreDigitArray = scoreString.split("");
-    text("digits array size:" + scoreDigitArray,20,70);
-
-    let offset=0;
-    let middle= width/2;
-}
+scoreSprite.img = digitImgs[score];
