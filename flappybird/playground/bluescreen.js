@@ -7,7 +7,7 @@ function setup(){
     scoreSprite.img = digit0;
 
     let prefix = "assets/";
-    
+    let postfix= ".png"
 
 }
 
