@@ -4,7 +4,8 @@ function setup(){
     new Canvas (400,600);
     background("blue");
     scoreSprite = new Sprite();
-    scoreSprite
+    scoreSprite.img = digit0;
+    
 }
 
 function preload(){
