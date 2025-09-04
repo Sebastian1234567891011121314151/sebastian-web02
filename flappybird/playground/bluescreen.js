@@ -6,7 +6,7 @@ function setup(){
 }
 
 function preload(){
-    digit0=loadImage('assets/0.png')
+    digit0=loadImage('assets/0.png');
 }
 
 
