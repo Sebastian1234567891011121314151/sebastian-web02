@@ -1,5 +1,6 @@
 let score = 0;
 let digit0;
+let 
 function setup(){
     new Canvas (400,600);
     background("lightblue");
