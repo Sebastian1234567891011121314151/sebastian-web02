@@ -5,6 +5,11 @@ function setup(){
     background("blue");
 }
 
+function preload(){
+    
+}
+
+
 function draw(){
     textSize(16);
     text("score:"+score,20,50);
