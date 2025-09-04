@@ -52,5 +52,7 @@ displayScore();
 
 }
 function displayScore(){
-    scoreSprite.img = digitImgs[score];
+    scoreSprite.img = digitImgs[0];
+
+    
 }
