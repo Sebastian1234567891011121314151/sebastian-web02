@@ -6,7 +6,7 @@ function setup(){
 }
 
 function preload(){
-    
+    digit=loadImage('assets/message.png')
 }
 
 
