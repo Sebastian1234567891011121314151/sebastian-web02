@@ -50,4 +50,6 @@ scoreSprite.img = digitImgs[score];
 
 
 }
-function dsiplayScore(){}
+function displayScore(){
+    
+}
