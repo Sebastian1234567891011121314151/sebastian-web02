@@ -22,7 +22,7 @@ function preload(){
         digitImgs[count]= loadImage(filename)
     }
 
-    digit0=loadImage('assets/0.png');
+    // digit0=loadImage('assets/0.png');
 
 }
 
