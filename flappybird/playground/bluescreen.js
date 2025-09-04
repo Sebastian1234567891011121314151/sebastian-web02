@@ -3,7 +3,7 @@ let digit0;
 function setup(){
     new Canvas (400,600);
     background("blue");
-    scoreSprite = new Sprite(200,300,);
+    scoreSprite = new Sprite(200,300,24,36);
     scoreSprite.img = digit0;
 
 }
