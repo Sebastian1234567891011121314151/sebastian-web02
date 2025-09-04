@@ -16,4 +16,10 @@ function preload(){
 function draw(){
     textSize(16);
     text("score:"+score,20,50);
+
+    if (kb.presses('up'))
+    score++
+
+
+
 }
