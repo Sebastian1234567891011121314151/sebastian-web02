@@ -6,7 +6,8 @@ function setup(){
     scoreSprite = new Sprite(200,300,24,36,"none");
     scoreSprite.img = digit0;
 
-    let prefix =
+    let prefix = "assets/";
+    
 
 }
 
