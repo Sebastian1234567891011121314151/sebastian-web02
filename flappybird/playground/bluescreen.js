@@ -47,10 +47,10 @@ function draw(){
     }
 score = constrain(score,0,9);
 displayScore();
-scoreSprite.img = digitImgs[score];
+
 
 
 }
 function displayScore(){
-
+    scoreSprite.img = digitImgs[score];
 }
