@@ -1,5 +1,5 @@
 let score = 0;
-let Digit0
+let digit0;
 function setup(){
     new Canvas (400,600);
     background("blue");
