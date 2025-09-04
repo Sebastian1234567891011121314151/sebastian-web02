@@ -38,15 +38,15 @@ function draw(){
     text("score:"+score,20,50);
 
     if (kb.presses('up')){
-        score++
+        score++;
 
     }
     else if (kb.presses('down')){
-        score--
+        score--;
 
     }
 score = constrain(score,0,9);
-scoreSprite.img = digitImgs(score)
+scoreSprite.img = digitImgs[score];
 
 
 }
