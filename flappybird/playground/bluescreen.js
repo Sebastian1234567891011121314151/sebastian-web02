@@ -5,7 +5,7 @@ function setup(){
     new Canvas (400,600);
     background("lightblue");
     scoreSprite = new Sprite(200,300,24,36,"none");
-    scoreSprite.img = digit0;
+    // scoreSprite.img = digit0;
 
 
 
@@ -18,7 +18,7 @@ function preload(){
     let postfix= ".png";
     for (let count=0; count<10; count++){
         let filename= prefix+ count+ postfix;
-        console.log(filename);
+        // console.log(filename);
         digitImgs[count]= loadImage(filename)
     }
 
