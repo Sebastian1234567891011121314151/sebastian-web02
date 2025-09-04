@@ -13,6 +13,8 @@ let startScreenImg, startScreenLabel;
 
 let startGame= false
 
+let score = 0
+
 
 
 
