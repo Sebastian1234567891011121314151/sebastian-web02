@@ -7,7 +7,7 @@ function setup(){
 
 
 
-    
+
     scoreSprite = new Sprite(200,300,24,36,"none");
     // scoreSprite.img = digit0;
 
@@ -39,11 +39,11 @@ function draw(){
 
     if (kb.presses('up')){
         score++
-        digitImgs[count]= loadImage(filename)
+
     }
     else if (kb.presses('down')){
         score--
-                digitImgs[count]= loadImage(filename)
+
     }
 
 
