@@ -54,5 +54,5 @@ displayScore();
 function displayScore(){
     scoreSprite.img = digitImgs[0];
 
-    let scoreString= str(score)
+    let scoreString= str(score);
 }
