@@ -3,9 +3,9 @@ let digit0;
 function setup(){
     new Canvas (400,600);
     background("blue");
-    scoreSprite = new Sprite();
+    scoreSprite = new Sprite(200,300,);
     scoreSprite.img = digit0;
-    
+
 }
 
 function preload(){
