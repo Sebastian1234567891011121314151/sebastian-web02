@@ -7,12 +7,6 @@ function setup(){
     scoreSprite = new Sprite(200,300,24,36,"none");
     scoreSprite.img = digit0;
 
-    let prefix = "assets/";
-    let postfix= ".png";
-    for (let count=0; count<10; count++){
-        let filename= prefix+ count+ postfix;
-        console.log(filename);
-    }
 
 
 }
