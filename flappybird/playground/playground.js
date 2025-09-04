@@ -178,6 +178,7 @@ if (kb.presses("space")||mouse.presses()) {
         text('sleeping:' + bird.sleeping, 10,60);
         text('pipes count:'+pipeGroup.length, 10,80);
         text('frame count:'+frameCount, 10,100);
+        
     }
 }// last line
 
