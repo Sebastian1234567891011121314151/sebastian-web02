@@ -35,7 +35,7 @@ function draw(){
 
     if (kb.presses('up')){
         score++
-        digitImgs[count]= loadImage(filename)
+        digitImgs[count]= loadImage(score)
     }
     else if (kb.presses('down')){
         score--
