@@ -168,7 +168,7 @@ if (kb.presses("space")||mouse.presses()) {
                 aPipe.remove()
             }
         }
-
+        if (pipeGroup)
 
         // DEBUGGING CODE
         fill("black")
