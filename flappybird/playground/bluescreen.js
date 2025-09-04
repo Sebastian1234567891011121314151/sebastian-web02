@@ -1,5 +1,5 @@
 let score = 0;
-let digit0;
+// let digit0;
 let digitImgs= [];
 function setup(){
     new Canvas (400,600);
@@ -35,7 +35,7 @@ function draw(){
 
     if (kb.presses('up')){
         score++
-                digitImgs[count]= loadImage(filename)
+        digitImgs[count]= loadImage(filename)
     }
     else if (kb.presses('down')){
         score--
