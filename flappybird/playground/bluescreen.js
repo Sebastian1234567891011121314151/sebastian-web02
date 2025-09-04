@@ -46,7 +46,7 @@ function draw(){
 
     }
 scor = constrain(score,0,9);
-scoreS
+scoreSprite.img = digitImgs
 
 
 }
