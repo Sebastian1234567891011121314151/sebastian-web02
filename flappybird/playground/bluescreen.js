@@ -14,6 +14,8 @@ function preload(){
 
 
 function draw(){
+
+    background()
     textSize(16);
     text("score:"+score,20,50);
 
