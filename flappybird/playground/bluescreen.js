@@ -45,7 +45,8 @@ function draw(){
         score--
 
     }
-scor = constrain(score,)
+scor = constrain(score,0,9);
+scoreS
 
 
 }
