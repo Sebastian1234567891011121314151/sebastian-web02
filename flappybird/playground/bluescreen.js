@@ -18,10 +18,10 @@ function draw(){
     text("score:"+score,20,50);
 
     if (kb.presses('up')){
-    score++
-}
+        score++
+    }
     else if (kb.presses('down')){
-        
+        score--
     }
 
 
