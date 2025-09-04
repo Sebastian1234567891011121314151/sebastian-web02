@@ -7,5 +7,5 @@ function setup(){
 
 function draw(){
     textSize(16);
-    
+    text("score:")
 }
