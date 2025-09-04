@@ -4,6 +4,10 @@ let digitImgs= [];
 function setup(){
     new Canvas (400,600);
     background("lightblue");
+
+
+
+    
     scoreSprite = new Sprite(200,300,24,36,"none");
     // scoreSprite.img = digit0;
 
