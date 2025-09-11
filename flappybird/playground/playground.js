@@ -202,7 +202,8 @@ if (kb.presses("space")||mouse.presses()) {
                     pipeGroup.removeAll();
                     bird.collider ="static"
                     bird.visible=false
-                    bird.y=height
+                    bird.y=height/2
+                    bird.x=width/2
                 },500)
             }
         
