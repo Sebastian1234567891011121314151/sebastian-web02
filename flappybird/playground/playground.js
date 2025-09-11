@@ -199,7 +199,8 @@ if (kb.presses("space")||mouse.presses()) {
                     score=0
                     startGame=false
 
-                    pipeGroup.
+                    pipeGroup.removeAll();
+                    bird.collide
                 },500)
             }
         
