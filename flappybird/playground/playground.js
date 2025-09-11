@@ -195,7 +195,7 @@ if (kb.presses("space")||mouse.presses()) {
             noLoop();
 
             if(mouse.presses(left)){
-                set
+                setTimeout(what,)
             }
         
             
