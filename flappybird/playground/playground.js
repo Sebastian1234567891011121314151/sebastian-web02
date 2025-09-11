@@ -165,6 +165,9 @@ if (kb.presses("space")||mouse.presses()) {
         camera.x=bird.x;
         floor.x=bird.x;
 
+
+
+        for(let)
         displayScore();
 
 
