@@ -173,6 +173,7 @@ if (kb.presses("space")||mouse.presses()) {
                 let RightEdgePipe =pipe.x=pipe.width/2
                 if (leftEdgeBird>RightEdgePipe){
                     score++
+                    pipe.passed=true
                 }
             }
 
