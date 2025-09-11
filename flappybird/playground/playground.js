@@ -196,16 +196,16 @@ if (kb.presses("space")||mouse.presses()) {
 
 
                 setTimeout(()=>{
-                    score=0
-                    startGame=false
+                    score=0;
+                    startGame=false;
 
                     pipeGroup.removeAll();
-                    bird.collider ="static"
-                    bird.visible=false
-                    bird.vel.y=0
-                    bird.y=height/2
+                    bird.collider ="static";
+                    bird.visible=false;
+                    bird.vel.y=0;
+                    bird.y=height/2;
 
-                    gameOverLabel.remove()
+                    gameOverLabel.remove();
 
                     startScreenLabel.visible = true;
                     startScreenLabel.x=bird.x
