@@ -205,7 +205,9 @@ if (kb.presses("space")||mouse.presses()) {
                     bird.vel.y=0
                     bird.y=height/2
 
-                    gameOver
+                    gameOverLabel.remove()
+
+                    
                     
                 },500)
             }
