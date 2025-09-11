@@ -203,7 +203,7 @@ if (kb.presses("space")||mouse.presses()) {
                     bird.collider ="static"
                     bird.visible=false
                     bird.y=height/2
-                    bird.x=width/2
+                    bird
                 },500)
             }
         
