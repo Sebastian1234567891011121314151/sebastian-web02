@@ -214,7 +214,7 @@ if (kb.presses("space")||mouse.presses()) {
 
                     loop();
                     
-                },500)
+                },1000)
             
         
             
