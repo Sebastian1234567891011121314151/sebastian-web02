@@ -194,7 +194,9 @@ if (kb.presses("space")||mouse.presses()) {
             gameOverLabel.x = camera.x;
             noLoop();
 
-            if(mouse.presses(left))
+            if(mouse.presses(left)){
+                set
+            }
         
             
 
