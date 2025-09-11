@@ -161,7 +161,7 @@ if (kb.presses("space")||mouse.presses()) {
             bird.rotation= 0;
         }
 
-        bird.x=bird.x+2;
+        bird.x=bird.x+4;
         camera.x=bird.x;
         floor.x=bird.x;
 
