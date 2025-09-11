@@ -233,7 +233,7 @@ function spawnPipePair() {
     topPipe.img=pipeImg;
     topPipe.rotation=180;
 
-    
+    topPipe.passed=false
 
     pipeGroup.add(topPipe);
 
