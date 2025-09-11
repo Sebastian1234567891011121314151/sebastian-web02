@@ -165,9 +165,9 @@ if (kb.presses("space")||mouse.presses()) {
         camera.x=bird.x;
         floor.x=bird.x;
 
+        displayScore();
 
 
-        
         if (bird.collides(floor) || bird.collides(pipeGroup)){
             gameOverLabel = new Sprite (width/2, height/2, 192, 42, "none");
             gameOverLabel.img = gameOverImg
