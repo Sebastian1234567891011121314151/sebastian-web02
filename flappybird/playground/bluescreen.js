@@ -66,7 +66,7 @@ function displayScore(){
 
     let scoreString= str(score);
     let scoreDigitArray = scoreString.split("");
-    []
+    
     text("digits array size:" + scoreDigitArray,20,70);
 
     let offset=0;
