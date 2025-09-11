@@ -60,7 +60,7 @@ function draw(){
         score=score -11;
 
     }
-score = constrain(score,0,999);
+score = constrain(score,0,9999);
 displayScore();
 
 
@@ -81,7 +81,7 @@ function displayScore(){
     let middle= width/2;
     for(let one of scoreDigitArray){
         let onedigit= new scoreGroup.Sprite(middle+offset,height/2,24,26);
-        onedigit.x=onedigit.x-((scoreDigitArray-1)*25/2)
+        onedigit.x=onedigit.x-((scoreDigitArray.length-1)*25/2)
         onedigit.img=digitImgs[one]
         offset=offset+25
     }
