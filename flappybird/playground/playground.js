@@ -170,7 +170,7 @@ if (kb.presses("space")||mouse.presses()) {
         for(let pipe of pipeGroup){
             if (pipe.passed=== false){
                 let leftEdgeBird = bird.x-bird.width/2
-                let RightEdgePipe =pipe.x=pipe.width/2
+                let RightEdgePipe =pipe.x+pipe.width/2
                 if (leftEdgeBird>RightEdgePipe){
                     score++
                     pipe.passed=true
