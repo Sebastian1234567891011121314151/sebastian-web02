@@ -52,6 +52,10 @@ function draw(){
         score--;
 
     }
+        else if (kb.presses('right')){
+        score--;
+
+    }
 score = constrain(score,0,999);
 displayScore();
 
