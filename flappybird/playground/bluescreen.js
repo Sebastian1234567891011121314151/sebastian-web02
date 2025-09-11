@@ -73,6 +73,7 @@ function displayScore(){
     let middle= width/2;
     for(let one of scoreDigitArray){
         let onedigit= new scoreGroup.Sprite(middle+offset,height/2,24,26);
+        
         offset=offst+25
     }
 }
