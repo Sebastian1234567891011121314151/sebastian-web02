@@ -171,6 +171,9 @@ if (kb.presses("space")||mouse.presses()) {
             if (pipe.passed=== false){
                 let leftEdgeBird = bird.x-bird.width/2
                 let RightEdgePipe =pipe.x=pipe.width/2
+                if (leftEdgeBird>RightEdgePipe){
+                    
+                }
             }
 
 
