@@ -208,7 +208,8 @@ if (kb.presses("space")||mouse.presses()) {
                     gameOverLabel.remove()
 
                     startScreenLabel.visible = true;
-                    startScreenLabel.x
+                    startScreenLabel.x=bird.x
+                    startScreenLabel.y=height/2
                     
                 },500)
             }
