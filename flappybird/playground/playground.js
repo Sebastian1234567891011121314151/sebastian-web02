@@ -200,6 +200,7 @@ if (kb.presses("space")||mouse.presses()) {
                     startGame=false;
 
                     pipeGroup.removeAll();
+                    scoreGroup.removeAll();
                     bird.collider ="static";
                     bird.visible=false;
                     bird.vel.y=0;
