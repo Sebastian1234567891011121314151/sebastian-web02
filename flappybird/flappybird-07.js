@@ -121,6 +121,8 @@ startScreenLabel.img= startScreenImg;
 
 
 function draw(){
+
+    let gameplaying
     image(bg,0,0,width,height);
     // if (mouse.presses("left")){
     //     new Sprite(mouseX,mouseY,30,30,"dynamic");
