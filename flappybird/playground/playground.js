@@ -161,7 +161,7 @@ if (kb.presses("space")||mouse.presses()) {
             bird.rotation= 0;
         }
 
-        bird.x=bird.x+4;
+        bird.x=bird.x+3;
         camera.x=bird.x;
         floor.x=bird.x;
 
@@ -239,7 +239,7 @@ if (kb.presses("space")||mouse.presses()) {
 
 // My custom function
 function spawnPipePair() {
-    let gap=40;
+    let gap=25;
     let midY=random(200,350);
 
     bottomPipe=new Sprite(bird.x+300, midY+200+gap/2, 52,320,"static");
