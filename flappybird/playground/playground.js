@@ -169,8 +169,8 @@ if (kb.presses("space")||mouse.presses()) {
 
         for(let pipe of pipeGroup){
             if (pipe.passed=== false){
-                let leftEdgeBird = bird.x-width
-                let RightEdgePipe
+                let leftEdgeBird = bird.x-width/2
+                let RightEdgePipe=
             }
 
 
