@@ -167,7 +167,13 @@ if (kb.presses("space")||mouse.presses()) {
 
 
 
-        for(let)
+        for(let pipe of pipeGroup){
+
+
+
+
+            
+        }
         displayScore();
 
 
