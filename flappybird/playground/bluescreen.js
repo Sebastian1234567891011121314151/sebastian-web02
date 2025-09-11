@@ -56,7 +56,7 @@ function draw(){
         score=score +11;
 
     }
-            else if (kb.presses('right')){
+            else if (kb.presses('left')){
         score=score -11;
 
     }
