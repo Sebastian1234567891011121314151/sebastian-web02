@@ -53,7 +53,7 @@ function draw(){
 
     }
         else if (kb.presses('right')){
-        score--;
+        score+10;
 
     }
 score = constrain(score,0,999);
