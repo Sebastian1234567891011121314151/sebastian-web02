@@ -210,6 +210,8 @@ if (kb.presses("space")||mouse.presses()) {
                     startScreenLabel.visible = true;
                     startScreenLabel.x=bird.x
                     startScreenLabel.y=height/2
+
+                    loop()
                     
                 },500)
             }
