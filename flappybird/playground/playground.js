@@ -204,6 +204,8 @@ if (kb.presses("space")||mouse.presses()) {
                     bird.visible=false
                     bird.vel.y=0
                     bird.y=height/2
+
+                    gameOver
                     
                 },500)
             }
