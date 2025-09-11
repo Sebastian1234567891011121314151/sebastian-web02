@@ -250,7 +250,7 @@ function displayScore(){
     // text("digits array size:" + scoreDigitArray,20,70);
 
     let offset=0;
-    let middle= width/2;
+    let middle= bird.x;
     for(let one of scoreDigitArray){
         let onedigit= new scoreGroup.Sprite(middle+offset,height/2,24,26);
         onedigit.x=onedigit.x-((scoreDigitArray.length-1)*25/2)
