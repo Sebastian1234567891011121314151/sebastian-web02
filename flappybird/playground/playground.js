@@ -15,7 +15,8 @@ let startGame= false
 
 let score = 0
 
-
+let digitImgs= [];
+let scoreGroup;
 
 
 
