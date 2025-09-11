@@ -169,7 +169,7 @@ if (kb.presses("space")||mouse.presses()) {
 
         for(let pipe of pipeGroup){
             if (pipe.passed=== false){
-                
+                let leftEdge
             }
 
 
