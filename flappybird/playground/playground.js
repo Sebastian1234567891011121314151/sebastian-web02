@@ -199,7 +199,7 @@ if (kb.presses("space")||mouse.presses()) {
                     score=0
                     startGame=false
 
-                    
+                    pipeGroup.
                 },500)
             }
         
