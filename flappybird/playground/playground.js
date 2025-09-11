@@ -172,7 +172,7 @@ if (kb.presses("space")||mouse.presses()) {
                 let leftEdgeBird = bird.x-bird.width/2
                 let RightEdgePipe =pipe.x=pipe.width/2
                 if (leftEdgeBird>RightEdgePipe){
-                    
+                    score++
                 }
             }
 
