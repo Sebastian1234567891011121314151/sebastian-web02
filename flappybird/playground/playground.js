@@ -208,7 +208,7 @@ if (kb.presses("space")||mouse.presses()) {
                     gameOverLabel.remove()
 
                     startScreenLabel.visible = true;
-                    start
+                    startScreenLabel.x
                     
                 },500)
             }
