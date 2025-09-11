@@ -196,8 +196,8 @@ if (kb.presses("space")||mouse.presses()) {
 
             if(mouse.presses(left)){
                 setTimeout(()=>{
-                    
-                },2000)
+
+                },500)
             }
         
             
