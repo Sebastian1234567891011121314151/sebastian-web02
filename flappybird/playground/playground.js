@@ -197,7 +197,9 @@ if (kb.presses("space")||mouse.presses()) {
             if(mouse.presses(left)){
                 setTimeout(()=>{
                     score=0
-                    startgame=false
+                    startGame=false
+
+                    
                 },500)
             }
         
