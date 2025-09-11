@@ -252,7 +252,7 @@ function displayScore(){
     let offset=0;
     let middle= bird.x;
     for(let one of scoreDigitArray){
-        let onedigit= new scoreGroup.Sprite(middle+offset,height/2,24,26);
+        let onedigit= new scoreGroup.Sprite(middle+offset,35,24,26);
         onedigit.x=onedigit.x-((scoreDigitArray.length-1)*25/2)
         onedigit.img=digitImgs[one]
         offset=offset+25
