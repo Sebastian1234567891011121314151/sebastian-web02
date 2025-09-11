@@ -52,7 +52,7 @@ function draw(){
         score--;
 
     }
-score = constrain(score,0,99);
+score = constrain(score,0,999);
 displayScore();
 
 
