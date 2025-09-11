@@ -194,7 +194,7 @@ if (kb.presses("space")||mouse.presses()) {
             gameOverLabel.x = camera.x;
             noLoop();
 
-            if(mouse.presses(left)){
+
                 setTimeout(()=>{
                     score=0
                     startGame=false
@@ -214,7 +214,7 @@ if (kb.presses("space")||mouse.presses()) {
                     loop()
                     
                 },500)
-            }
+            
         
             
 
