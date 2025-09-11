@@ -72,6 +72,6 @@ function displayScore(){
     let offset=0;
     let middle= width/2;
     for(let one of scoreDigitArray){
-
+        let onedigit= new
     }
 }
