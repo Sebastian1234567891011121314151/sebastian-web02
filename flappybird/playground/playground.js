@@ -239,7 +239,7 @@ if (kb.presses("space")||mouse.presses()) {
         if(frameCount % 90 === 0){
         spawnPipePair();
         }
-        if (frameCount% 60)
+        if (frameCount% 60 ===0)
 
 
         for (let aPipe of pipeGroup){
