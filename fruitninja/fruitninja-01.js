@@ -1,1 +1,5 @@
 let bg
+
+function setup(){
+    
+}
