@@ -41,7 +41,7 @@ function preload(){
 
     startScreenImg=loadImage('assets/message.png')
 
-    
+    flapSound= createAudio
 
 
 
