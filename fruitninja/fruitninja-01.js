@@ -20,7 +20,7 @@ image(bg,0,0,1000,600)
 textSize(45)
 fill("red")
 text('Game Over!', 400,300)
-textSize(18)
+textSize(25)
 fill("white")
 text('Score : ',450,350)
 }
