@@ -24,5 +24,5 @@ textSize(25)
 fill("white")
 text('Score : ',450,350)
 text('Missed Fruits : ',450,350)
-text(' : ',450,350)
+text('Press SPACE to Restart',450,350)
 }//last line
