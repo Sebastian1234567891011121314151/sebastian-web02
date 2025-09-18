@@ -23,6 +23,6 @@ text('Game Over!', 400,300)
 textSize(25)
 fill("white")
 text('Score : ',450,350)
-text(' ',450,350)
-text('Score : ',450,350)
+text('Missed Fruits : ',450,350)
+text(' : ',450,350)
 }//last line
