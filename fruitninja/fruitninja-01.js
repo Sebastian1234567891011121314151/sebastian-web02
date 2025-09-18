@@ -40,7 +40,7 @@ displayGO();
 function gameStart(){
     textSize(25);
     fill("white");
-    
+    text('Fruit Ninja')
 }
 
 
