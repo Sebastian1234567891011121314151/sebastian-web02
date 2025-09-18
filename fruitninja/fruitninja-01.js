@@ -15,7 +15,7 @@ function setup(){
 
 
 function draw(){
-image(bg,0,0,1000,600)
+image(bg,0,0,width,600)
 
 
 textAlign(CENTER , CENTER)
@@ -24,7 +24,7 @@ textAlign(CENTER , CENTER)
 
 textSize(45)
 fill("red")
-text('Game Over!',witdh)
+text('Game Over!',width/2)
 textSize(25)
 fill("white")
 text('Score : ',450,350)
