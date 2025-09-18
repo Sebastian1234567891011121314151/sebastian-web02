@@ -23,8 +23,8 @@ function setup(){
 
 function draw(){
 
+gameStart()
 
-    
 image(bg,0,0,width,height);
 // 
 
