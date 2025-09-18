@@ -21,5 +21,6 @@ textSize(40)
 fill("red")
 text('Game Over!', 400,300)
 textSize(18)
+fill("white")
 
 }
