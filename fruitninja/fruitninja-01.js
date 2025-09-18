@@ -38,6 +38,8 @@ displayGO();
 }//last line
 
 function gameStart(){
+    textSize(25);
+    fill("white");
     
 }
 
