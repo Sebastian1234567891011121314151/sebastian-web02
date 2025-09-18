@@ -44,7 +44,8 @@ displayGO();
 function gameStart(){
     textSize(60);
     fill("white");
-    text('Fruit Ninja',textmid,)
+    text('Fruit Ninja',textmid,height/2)
+    text('')
 }
 
 
