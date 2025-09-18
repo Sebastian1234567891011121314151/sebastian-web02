@@ -257,15 +257,15 @@ if (kb.presses("space")||mouse.presses()) {
         
 
         // DEBUGGING CODE
-    //     fill("black")
-    //     textSize(14)
-    //     text('vel.y:'+bird.vel.y.toFixed(2),10,20);
-    //     text('is moving:' + bird.isMoving, 10,40);
-    //     text('sleeping:' + bird.sleeping, 10,60);
-    //     text('pipes count:'+pipeGroup.length, 10,80);
-    //     text('frame count:'+frameCount, 10,100);
-    //     text('score count:'+score, 10,120);
-    //\\ }
+        fill("black")
+        textSize(14)
+        text('vel.y:'+bird.vel.y.toFixed(2),10,20);
+     text('is moving:' + bird.isMoving, 10,40);
+        text('sleeping:' + bird.sleeping, 10,60);
+        text('pipes count:'+pipeGroup.length, 10,80);
+        text('frame count:'+frameCount, 10,100);
+     text('score count:'+score, 10,120);
+     }
 }// last line
 
 
