@@ -17,10 +17,10 @@ function setup(){
 function draw(){
 image(bg,0,0,1000,600)
 
-textSize(40)
+textSize(45)
 fill("red")
 text('Game Over!', 400,300)
 textSize(18)
 fill("white")
-text('Score : ',400,350)
+text('Score : ',450,350)
 }
