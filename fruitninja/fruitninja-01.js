@@ -43,6 +43,9 @@ if (kb.presses('space')){
 }//last line
 
 function gameStart2(){
+    let textmid =width/2;
+
+    textAlign(CENTER , CENTER);
     textSize(60);
     fill("white");
     text('Fruit Ninja',textmid,height/2)
@@ -62,7 +65,9 @@ function gameStart2(){
 
 
 function displayGO(){
+let textmid =width/2;
 
+textAlign(CENTER , CENTER);
 
 
 textSize(45)
