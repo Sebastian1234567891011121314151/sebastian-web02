@@ -41,6 +41,10 @@ function preload(){
 
     startScreenImg=loadImage('assets/message.png')
 
+    
+
+
+
         let prefix = "assets/";
         let postfix= ".png";
     for (let count=0; count<10; count++){
