@@ -23,7 +23,7 @@ function setup(){
 
 function draw(){
 
-gameStart()
+
 
 image(bg,0,0,width,height);
 // 
@@ -44,12 +44,13 @@ displayGO();
 
 }//last line
 
-function gameStart(){
+function gameStart2(){
     textSize(60);
     fill("white");
     text('Fruit Ninja',textmid,height/2)
     textSize(30)
     text('Press SPACE to Start!',textmid,350)
+
 }
 
 
