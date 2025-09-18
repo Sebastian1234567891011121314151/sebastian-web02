@@ -22,5 +22,5 @@ fill("red")
 text('Game Over!', 400,300)
 textSize(18)
 fill("white")
-
+text('Score : ')
 }
