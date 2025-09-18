@@ -18,6 +18,7 @@ function draw(){
 image(bg,0,0,1000,600)
 
 textSize(36)
-fill
+fill()
+
 text("Game Over!")
 }
