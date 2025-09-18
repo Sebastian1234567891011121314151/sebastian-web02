@@ -8,6 +8,7 @@ let pipeGroup;
 let pipeImg;
 let bottomePipe,topPipe;
 let gameOverImg, gameOverLabel;
+let useDay=true
 
 let startScreenImg, startScreenLabel;
 
