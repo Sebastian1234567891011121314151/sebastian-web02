@@ -28,6 +28,6 @@ text('Game Over!',textmid)
 textSize(25)
 fill("white")
 text('Score : ',textmid,350)
-text('Missed Fruits : ',450,400)
-text('Press SPACE to Restart',450,450)
+text('Missed Fruits : ',textmid,400)
+text('Press SPACE to Restart',textmid,450)
 }//last line
