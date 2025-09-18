@@ -53,7 +53,7 @@ let textmidhoriz=75
 textAlign(RIGHT,CENTER )
 textSize(25);
 fill("white");
-text('Score : '+score,50,textmidhoriz);
-text('Missed Fruits : '+missedfruit,150,textmidhoriz);
-text('Time : '+timer+' sec',250,textmidhoriz);
+text('Score : '+score,150,textmidhoriz);
+text('Missed Fruits : '+missedfruit,300,textmidhoriz);
+text('Time : '+timer+' sec',450,textmidhoriz);
 }
