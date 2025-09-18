@@ -17,5 +17,6 @@ function setup(){
 function draw(){
 image(bg,0,0,1000,600)
 
-textSize()
+textSize(36)
+text()
 }
