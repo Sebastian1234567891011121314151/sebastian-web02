@@ -150,8 +150,10 @@ if (kb.presses("space")||mouse.presses()) {
         bird.visible=true;
         bird.collider="dynamic";
 
-        if (useDay === false)
-    image(bgnight,0,0,width,height);
+        if (useDay === false){
+        image(bgnight,0,0,width,height);
+        }
+
     
 
         if (kb.presses("space")||mouse.presses("left")){
