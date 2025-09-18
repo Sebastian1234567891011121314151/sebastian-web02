@@ -1,7 +1,7 @@
 // playground
 
 let bird, floor;
-let bg, base;
+let bg, base,bgnight;
 let flapMidImg,flapDownImg,flapUpImg;
 
 let pipeGroup;
