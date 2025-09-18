@@ -37,6 +37,19 @@ displayGO();
 
 }//last line
 
+function gameStart(){
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 function displayGO(){
     let textmid =width/2;
