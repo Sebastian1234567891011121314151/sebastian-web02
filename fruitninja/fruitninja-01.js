@@ -55,5 +55,5 @@ textSize(25);
 fill("white");
 text('Score : '+score,150,textmidhoriz);
 text('Missed Fruits : '+missedfruit,500,textmidhoriz);
-text('Time : '+timer+' sec',850,textmidhoriz);
+text('Time : '+timer+' sec',800,textmidhoriz);
 }
