@@ -1,6 +1,6 @@
 let bg;
-let score=1
-let missedfruit=10
+let score=1;
+let missedfruit=10;
 function preload(){
     bg=loadImage('assets/dojobackground.png');
 }
@@ -16,11 +16,11 @@ function setup(){
 
 
 function draw(){
-image(bg,0,0,width,height)
-displayGO()
+image(bg,0,0,width,height);
+displayGO();
 
 if (kb.presses('space')){
-    
+
 }
 
 
