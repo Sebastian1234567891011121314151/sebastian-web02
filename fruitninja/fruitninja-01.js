@@ -3,6 +3,10 @@ let score=1;
 let missedfruit=10;
 let timer=10
 let gameStart=false
+let textmid =width/2;
+
+textAlign(CENTER , CENTER);
+
 function preload(){
     bg=loadImage('assets/dojobackground.png');
 }
