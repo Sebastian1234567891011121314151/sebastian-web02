@@ -26,7 +26,9 @@ if (kb.presses('space')){
  gameStart=true
 }
 
-
+if(gameStart){
+    
+}
 
 
 
