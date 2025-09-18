@@ -199,6 +199,7 @@ if (kb.presses("space")||mouse.presses()) {
             gameOverLabel.img = gameOverImg
             gameOverLabel.layer=1000;
             gameOverLabel.x = camera.x;
+            
             noLoop();
 
 
