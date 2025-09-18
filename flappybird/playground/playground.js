@@ -243,7 +243,7 @@ if (kb.presses("space")||mouse.presses()) {
         if(frameCount % 90 === 0){
         spawnPipePair();
         }
-        if (frameCount% 60 ===0){
+        if (frameCount % 60 ===0){
             useDay=!useDay
         }
 
