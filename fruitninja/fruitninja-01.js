@@ -1,5 +1,6 @@
 let bg;
-let score=
+let score=1
+let 
 function preload(){
     bg=loadImage('assets/dojobackground.png');
 }
