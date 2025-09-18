@@ -18,7 +18,7 @@ function draw(){
 image(bg,0,0,1000,600)
 
 
-textAlign()
+textAlign(CENTER , CENTER)
 
 
 
