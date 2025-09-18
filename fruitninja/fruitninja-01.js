@@ -19,5 +19,5 @@ image(bg,0,0,1000,600)
 
 textSize(36)
 fill("red")
-text("Game Over!")
+text('Game Over!', 300,300)
 }
