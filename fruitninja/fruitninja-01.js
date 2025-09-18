@@ -47,5 +47,9 @@ text('Press SPACE to Restart',textmid,450);
 
 
 function displayPLAY(){
-    
+textSize(25);
+fill("white");
+text('Score : '+score,textmid,350);
+text('Missed Fruits : '+missedfruit,textmid,400);
+text('Press SPACE to Restart',textmid,450);
 }
