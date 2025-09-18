@@ -21,7 +21,7 @@ image(bg,0,0,width,height);
 displayPLAY()
 
 if (kb.presses('space')){
-    
+    console.log("hi")
 }
 
 
