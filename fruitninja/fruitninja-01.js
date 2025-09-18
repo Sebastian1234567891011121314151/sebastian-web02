@@ -1,7 +1,7 @@
 let bg
 
 function preload(){
-    
+    bg=loadImage()
 }
 
 
