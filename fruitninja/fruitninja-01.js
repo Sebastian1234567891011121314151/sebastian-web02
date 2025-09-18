@@ -24,10 +24,10 @@ textAlign(CENTER , CENTER)
 
 textSize(45)
 fill("red")
-text('Game Over!',width/2)
+text('Game Over!',textmid)
 textSize(25)
 fill("white")
-text('Score : ',450,350)
+text('Score : ',,350)
 text('Missed Fruits : ',450,400)
 text('Press SPACE to Restart',450,450)
 }//last line
