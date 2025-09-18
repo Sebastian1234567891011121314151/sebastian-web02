@@ -15,7 +15,7 @@ function setup(){
 
 
 function draw(){
-image(bg,0,0,width,600)
+image(bg,0,0,1000,600)
 
 textSize(45)
 fill("red")
