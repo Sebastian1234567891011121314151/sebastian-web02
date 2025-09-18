@@ -14,4 +14,6 @@ function setup(){
 
 
 
-fucntion
+fucntion draw(){
+    
+}
