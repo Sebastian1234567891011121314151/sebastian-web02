@@ -17,6 +17,11 @@ function setup(){
 function draw(){
 image(bg,0,0,1000,600)
 
+
+text
+
+
+
 textSize(45)
 fill("red")
 text('Game Over!', 400,300)
