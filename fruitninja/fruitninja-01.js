@@ -1,5 +1,5 @@
 let bg
 
 function setup(){
-    new Canvas("black")
+    new Canvas("white")
 }
