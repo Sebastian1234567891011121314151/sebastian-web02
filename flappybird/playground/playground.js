@@ -29,6 +29,7 @@ let flapSound, pointSound, failSound;
 
 function preload(){
     bg = loadImage('assets/background-day.png');
+    bgnight-
     base = loadImage('assets/base.png');
 
     flapDownImg=loadImage('assets/bluebird-downflap.png');
