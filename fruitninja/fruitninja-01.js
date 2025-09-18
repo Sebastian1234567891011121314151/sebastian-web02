@@ -45,7 +45,8 @@ function gameStart(){
     textSize(60);
     fill("white");
     text('Fruit Ninja',textmid,height/2)
-    text('')
+    textSize(2)
+    text('Press SPACE to Start!')
 }
 
 
