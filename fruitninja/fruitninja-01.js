@@ -53,5 +53,5 @@ textSize(25);
 fill("white");
 text('Score : '+score,textmidhoriz,350);
 text('Missed Fruits : '+missedfruit,textmidhoriz,400);
-text('Press SPACE to Restart',textmidho,450);
+text('Press SPACE to Restart',textmidhoriz,450);
 }
