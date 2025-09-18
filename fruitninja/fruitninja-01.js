@@ -51,7 +51,7 @@ let textmidhoriz=75
 textAlign(RIGHT,CENTER )
 textSize(25);
 fill("white");
-text('Score : '+score,textmidhoriz,350);
-text('Missed Fruits : '+missedfruit,textmidhoriz,400);
-text('Press SPACE to Restart',textmidhoriz,450);
+text('Score : '+score,50,textmidhoriz);
+text('Missed Fruits : '+missedfruit,150,textmidhoriz);
+text('Press SPACE to Restart',250,textmidhoriz);
 }
