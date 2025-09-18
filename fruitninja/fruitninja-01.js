@@ -54,6 +54,6 @@ textAlign(RIGHT,CENTER )
 textSize(25);
 fill("white");
 text('Score : '+score,150,textmidhoriz);
-text('Missed Fruits : '+missedfruit,300,textmidhoriz);
-text('Time : '+timer+' sec',450,textmidhoriz);
+text('Missed Fruits : '+missedfruit,500,textmidhoriz);
+text('Time : '+timer+' sec',850,textmidhoriz);
 }
