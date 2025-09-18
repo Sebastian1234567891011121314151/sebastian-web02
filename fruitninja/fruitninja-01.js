@@ -60,9 +60,6 @@ function gameStart(){
 
 
 function displayGO(){
-    let textmid =width/2;
-
-textAlign(CENTER , CENTER);
 
 
 
