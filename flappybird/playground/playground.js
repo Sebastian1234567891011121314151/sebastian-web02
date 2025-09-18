@@ -149,7 +149,9 @@ if (kb.presses("space")||mouse.presses()) {
 
         bird.visible=true;
         bird.collider="dynamic";
-    image(bg,0,0,width,height);
+
+        if (!)
+    image(bgnight,0,0,width,height);
     
 
         if (kb.presses("space")||mouse.presses("left")){
