@@ -1,9 +1,9 @@
 // playground
 
 let bird, floor;
-let bg, base,bgnight;
+let bg, base;
 let flapMidImg,flapDownImg,flapUpImg;
-
+let bgnight;
 let pipeGroup;
 let pipeImg;
 let bottomePipe,topPipe;
@@ -29,7 +29,7 @@ let flapSound, pointSound, failSound;
 
 function preload(){
     bg = loadImage('assets/background-day.png');
-    bgnight-
+    bgnight=loadImage('assets/background-night.png');
     base = loadImage('assets/base.png');
 
     flapDownImg=loadImage('assets/bluebird-downflap.png');
