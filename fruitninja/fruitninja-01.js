@@ -1,13 +1,13 @@
-let bg
+let bg;
 
 function preload(){
-    bg=loadImage('assets/dojobackground.png')
+    bg=loadImage('assets/dojobackground.png');
 }
 
 
 
 
 function setup(){
-    new Canvas(1000,600)
-    background("white")
+    new Canvas(1000,600);
+    background("white");
 }
