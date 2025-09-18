@@ -14,6 +14,6 @@ function setup(){
 
 
 
-fucntion draw(){
-    
+function draw(){
+bg
 }
