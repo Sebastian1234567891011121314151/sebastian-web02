@@ -17,7 +17,7 @@ let score = 0
 
 let digitImgs= [];
 let scoreGroup;
-let flapSoung, pointSound, failSound;
+let flapSound, pointSound, failSound;
 
 
 
