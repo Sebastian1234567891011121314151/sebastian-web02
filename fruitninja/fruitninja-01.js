@@ -24,7 +24,7 @@ textAlign(CENTER , CENTER)
 
 textSize(45)
 fill("red")
-text('Game Over!',textmid)
+text('Game Over!',textmid,height/2)
 textSize(25)
 fill("white")
 text('Score : ',textmid,350)
