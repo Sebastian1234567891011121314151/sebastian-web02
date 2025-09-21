@@ -33,6 +33,7 @@ if (kb.presses('space')){
 
 if(gameStart){
     displayPLAY();
+    
 }
 else{
 displayGO();
