@@ -31,12 +31,12 @@ if (kb.presses('space')){
  gameStart=true;
 }
 
-// if(gameStart){
-//     displayPLAY();
-// }
-// else{
-// displayGO();
-// }
+if(gameStart){
+    displayPLAY();
+}
+else{
+displayGO();
+}
 
 
 
