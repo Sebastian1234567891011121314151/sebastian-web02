@@ -25,7 +25,7 @@ function draw(){
 
 image(bg,0,0,width,height);
 
-gameStart2()
+// gameStart2()
 
 if (kb.presses('space')){
  gameStart=true;
