@@ -68,7 +68,8 @@ if (FCstart<0)  {
     displayGO();
 }
 if (timer===0){
-    
+    displayGO();
+    noloop()
 }
 
 
