@@ -59,6 +59,11 @@ if(gameStart){
     clear();
     displayGO();
 }
+    else if (kb.presses('5')){
+    clear();
+    displayGO();
+}
+
 
 
 }
