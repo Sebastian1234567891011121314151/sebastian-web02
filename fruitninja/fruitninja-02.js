@@ -66,7 +66,7 @@ if (FCstart<0)  {
 }
 if (mouse.pressses()){
     let ball=new Sprite(mouseX,mouseY,30)
-    ball.vel.y=random(5)
+    ball.vel.y=random(5,20)
 }
 
 
