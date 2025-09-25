@@ -42,10 +42,11 @@ if (kb.presses('space')){
  gameStart=true;
 
 }
+else if()
 
 if(gameStart){
     displayPLAY();
-     backgroundsound.loop()
+
 }
 else{
 displayGO();
