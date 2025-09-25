@@ -11,7 +11,7 @@ function preload(){
     bg=loadImage('assets/dojobackground.png');
 
 backgroundsound= createAudio('assets/fruit-ninja-bgtrack.mp3')
-slicesound=('assets/fruit-ninja-combo.mp3')
+slicesound=createAudio('assets/fruit-ninja-combo.mp3')
 
 
 
