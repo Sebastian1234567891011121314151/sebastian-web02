@@ -109,6 +109,7 @@ function gameStart2(){
 
 
 function displayGO(){
+    clear();
 let textmid =width/2;
 
 textAlign(CENTER , CENTER);
