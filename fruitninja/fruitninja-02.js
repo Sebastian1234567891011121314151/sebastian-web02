@@ -46,6 +46,16 @@ if (kb.presses('space')){
 if(gameStart){
     displayPLAY();
 
+    if(kb.presses('1')){
+    backgroundsound.loop()
+}
+else if (kb.presses('2')){
+    backgroundsound.stop()
+}
+else if (kb.presses('3')){
+    slicesound.play()
+}
+
 }
 else{
 displayGO();
