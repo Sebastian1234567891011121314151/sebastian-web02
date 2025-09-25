@@ -49,7 +49,7 @@ else if (kb.presses('2')){
     backgroundsound.stop()
 }
 else if (kb.presses('3')){
-    
+    slicesound.play()
 }
 
 if(gameStart){
