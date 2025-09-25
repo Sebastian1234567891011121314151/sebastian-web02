@@ -51,7 +51,7 @@ if (FCstart<0)  {
     FCstart=frameCount
 }  
 
-    if ((frameCount-FCstart) % 60 ===0){
+    if ((frameCount-FCstart+1) % 60 ===0){
         timer--
 }
     if(kb.presses('1')){
