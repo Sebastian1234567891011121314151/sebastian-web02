@@ -87,7 +87,7 @@ gameStart2();
 }//last line
 
 function gameStart2(){
-    clear();
+ 
     let textmid =width/2;
 
     textAlign(CENTER , CENTER);
