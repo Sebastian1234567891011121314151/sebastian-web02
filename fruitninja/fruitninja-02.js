@@ -56,7 +56,7 @@ if(gameStart){
     slicesound.play();
 }
     else if (kb.presses('4')){
-    slicesound.play();
+    displayGo();
 }
 
 
