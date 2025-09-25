@@ -48,6 +48,7 @@ else if(kb.presses('1')){
 else if (kb.presses('2')){
     backgroundsound.stop()
 }
+else if (kb.presses)
 
 if(gameStart){
     displayPLAY();
