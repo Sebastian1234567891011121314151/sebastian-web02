@@ -61,7 +61,7 @@ if(gameStart){
 }
     else if (kb.presses('5')){
     clear();
-    displayGO();
+    displayP();
 }
 
 
