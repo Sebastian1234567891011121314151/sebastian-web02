@@ -45,7 +45,7 @@ if (kb.presses('space')){
 
 if(gameStart){
     displayPLAY();
-     backgroundsound.play()
+     backgroundsound.loop()
 }
 else{
 displayGO();
