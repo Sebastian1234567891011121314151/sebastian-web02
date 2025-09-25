@@ -119,7 +119,7 @@ let textmidhoriz=28
 textAlign(CENTER,CENTER )
 textSize(25);
 fill("white");
-text('Missed Fruits : '+missedfruit,500,textmidhoriz);
+text('Missed Fruits : '+missedfruit,width/2,textmidhoriz);
 textAlign(LEFT,CENTER )
 text('Score : '+score,150,textmidhoriz);
 textAlign(LEFT,CENTER )
