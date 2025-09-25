@@ -47,13 +47,13 @@ if(gameStart){
     displayPLAY();
 
     if(kb.presses('1')){
-    backgroundsound.loop()
+    backgroundsound.loop();
 }
     else if (kb.presses('2')){
-    backgroundsound.stop()
+    backgroundsound.stop();
 }
     else if (kb.presses('3')){
-    slicesound.play()
+    slicesound.play();
 }
 
 }
@@ -71,9 +71,9 @@ function gameStart2(){
     textAlign(CENTER , CENTER);
     textSize(60);
     fill("white");
-    text('Fruit Ninja',textmid,height/2)
-    textSize(30)
-    text('Press SPACE to Start!',textmid,375)
+    text('Fruit Ninja',textmid,height/2);
+    textSize(30);
+    text('Press SPACE to Start!',textmid,375);
 
 }
 
