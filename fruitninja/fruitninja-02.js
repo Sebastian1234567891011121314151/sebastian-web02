@@ -119,8 +119,8 @@ textAlign(CENTER,CENTER )
 textSize(25);
 fill("white");
 text('Missed Fruits : '+missedfruit, width/2,28)
-textAlign(LEFT,CENTER );
+textAlign(RIGHT,CENTER );
 text('Score : '+score,333,28);
-textAlign(RIGHT,CENTER )
+textAlign(LEFT,CENTER )
 text('Time : '+timer+'s',width-333,28);
 }
