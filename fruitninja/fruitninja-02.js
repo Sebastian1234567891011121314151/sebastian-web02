@@ -65,7 +65,7 @@ if (FCstart<0)  {
     slicesound.play();
 }
 if (mouse.pressses()){
-    let ball=new Sprite(30)
+    let ball=new Sprite(mouseX,mouseY,30)
 
 }
 
