@@ -1,7 +1,7 @@
 let bg;
 let score=1;
 let missedfruit=10;
-let timer=60
+let timer=10
 let gameStart=false
 
 let FCstart=0
@@ -69,7 +69,7 @@ if (FCstart<0)  {
 }
 if (timer===0){
     displayGO();
-    noloop()
+    noloop();
 }
 
 
