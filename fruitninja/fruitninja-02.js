@@ -122,6 +122,6 @@ fill("white");
 text('Missed Fruits : '+missedfruit,500,textmidhoriz);
 textAlign(LEFT,CENTER )
 text('Score : '+score,150,textmidhoriz);
-textAlign(RIGHT,CENTER )
+textAlign(LEFT,CENTER )
 text('Time : '+timer+' sec',800,textmidhoriz);
 }
