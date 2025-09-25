@@ -4,6 +4,8 @@ let missedfruit=10;
 let timer=60
 let gameStart=false
 
+let FCstart
+
 let bgsound,combosound
 
 
