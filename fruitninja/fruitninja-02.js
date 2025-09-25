@@ -64,6 +64,13 @@ if (FCstart<0)  {
     else if (kb.presses('3')){
     slicesound.play();
 }
+if (mouse.pressses()){
+    
+}
+
+
+
+
 }
 if (timer===0){
     displayGO();
