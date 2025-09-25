@@ -55,6 +55,10 @@ if(gameStart){
     else if (kb.presses('3')){
     slicesound.play();
 }
+    else if (kb.presses('4')){
+    slicesound.play();
+}
+
 
 }
 else{
