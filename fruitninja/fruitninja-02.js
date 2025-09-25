@@ -40,11 +40,12 @@ image(bg,0,0,width,height);
 
 if (kb.presses('space')){
  gameStart=true;
- backgroundsound.play()
+
 }
 
 if(gameStart){
     displayPLAY();
+     backgroundsound.play()
 }
 else{
 displayGO();
