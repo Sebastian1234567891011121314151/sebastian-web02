@@ -28,6 +28,7 @@ slicesound=createAudio('assets/fruit-ninja-combo.mp3')
 function setup(){
     new Canvas(1000,600);
     background("white");
+    world.gravity.y=10;
 }
 
 
@@ -128,7 +129,7 @@ text('Press SPACE to Restart',textmid,450);
 
 
 function displayPLAY(){
-    clear();
+
 textAlign(CENTER,CENTER )
 textSize(25);
 fill("white");
