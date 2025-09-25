@@ -98,7 +98,7 @@ fill("red")
 text('Game Over!',textmid,height/2);
 textSize(25);
 fill("white");
-text('Score : '+score,textmid,350);
+text('Score : '+score,textmid,width/2);
 text('Missed Fruits : '+missedfruit,textmid,400);
 text('Press SPACE to Restart',textmid,450);
 }
