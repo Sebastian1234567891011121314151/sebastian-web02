@@ -42,12 +42,12 @@ if (kb.presses('space')){
  gameStart=true;
 
 }
-if (frameCount % 60 ===0){
-    timer--
-}
+
 if(gameStart){
     displayPLAY();
-
+    if (frameCount % 60 ===0){
+        timer--
+}
     if(kb.presses('1')){
     backgroundsound.loop();
 }
