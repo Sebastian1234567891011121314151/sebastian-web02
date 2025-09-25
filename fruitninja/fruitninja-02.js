@@ -47,7 +47,9 @@ if (kb.presses('space')){
 
 if(gameStart){
     displayPLAY();
-if (FCstart<0)  {    FCstart=frameCount}  
+if (FCstart<0)  {   
+    FCstart=frameCount
+}  
 
     if ((frameCount-FCstart) % 60 ===0){
         timer--
