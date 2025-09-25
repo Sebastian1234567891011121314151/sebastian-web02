@@ -58,7 +58,7 @@ if(gameStart){
 
 }
 else{
-displayGO();
+gameStart2();
 }
 
 
