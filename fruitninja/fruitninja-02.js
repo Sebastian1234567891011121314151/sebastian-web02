@@ -65,7 +65,7 @@ if (FCstart<0)  {
     slicesound.play();
 }
 if (mouse.pressses()){
-    new SPrite
+    new Sprite(30)
 }
 
 
