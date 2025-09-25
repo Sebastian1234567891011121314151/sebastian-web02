@@ -42,7 +42,7 @@ if (kb.presses('space')){
  gameStart=true;
 
 }
-else if(kb.presses('1')){
+if(kb.presses('1')){
     backgroundsound.loop()
 }
 else if (kb.presses('2')){
