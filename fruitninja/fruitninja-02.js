@@ -67,6 +67,9 @@ if (FCstart<0)  {
     clear();
     displayGO();
 }
+if (timer===0){
+    
+}
 
 
 //     else if (kb.presses('5')){
