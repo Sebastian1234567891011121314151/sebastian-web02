@@ -42,15 +42,6 @@ if (kb.presses('space')){
  gameStart=true;
 
 }
-if(kb.presses('1')){
-    backgroundsound.loop()
-}
-else if (kb.presses('2')){
-    backgroundsound.stop()
-}
-else if (kb.presses('3')){
-    slicesound.play()
-}
 
 if(gameStart){
     displayPLAY();
