@@ -49,10 +49,10 @@ if(gameStart){
     if(kb.presses('1')){
     backgroundsound.loop()
 }
-else if (kb.presses('2')){
+    else if (kb.presses('2')){
     backgroundsound.stop()
 }
-else if (kb.presses('3')){
+    else if (kb.presses('3')){
     slicesound.play()
 }
 
