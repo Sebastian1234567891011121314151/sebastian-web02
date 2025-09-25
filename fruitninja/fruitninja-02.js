@@ -123,5 +123,5 @@ text('Missed Fruits : '+missedfruit, width/2,textmidhoriz);
 textAlign(LEFT,CENTER )
 text('Score : '+score,150,textmidhoriz);
 textAlign(LEFT,CENTER )
-text('Time : '+timer+' sec',800,textmidhoriz);
+text('Time : '+timer+' sec',700,textmidhoriz);
 }
