@@ -64,9 +64,9 @@ if (FCstart<0)  {
     else if (kb.presses('3')){
     slicesound.play();
 }
-if (mouse.pressses()){
+if (mouse.presses()){
     let ball=new Sprite(mouseX,mouseY,30)
-    ball.vel.y=random(5,20)
+    ball.vel.y=random-(5,20)
 }
 
 
