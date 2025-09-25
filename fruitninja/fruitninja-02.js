@@ -4,6 +4,8 @@ let missedfruit=10;
 let timer=10
 let gameStart=false
 
+let
+
 
 function preload(){
     bg=loadImage('assets/dojobackground.png');
