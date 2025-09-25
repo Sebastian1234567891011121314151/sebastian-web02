@@ -4,7 +4,7 @@ let missedfruit=10;
 let timer=10
 let gameStart=false
 
-let ninja
+let bgsound,
 
 
 function preload(){
