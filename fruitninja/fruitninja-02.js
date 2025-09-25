@@ -116,7 +116,7 @@ text('Press SPACE to Restart',textmid,450);
 
 function displayPLAY(){
 let textmidhoriz=75
-textAlign(RIGHT,CENTER )
+textAlign(CENTER,CENTER )
 textSize(25);
 fill("white");
 text('Score : '+score,150,textmidhoriz);
