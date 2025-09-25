@@ -9,6 +9,14 @@ let bgsound,combosound
 
 function preload(){
     bg=loadImage('assets/dojobackground.png');
+
+
+
+
+
+
+
+    
 }
 
 
