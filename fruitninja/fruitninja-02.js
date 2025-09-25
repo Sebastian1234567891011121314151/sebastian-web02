@@ -120,7 +120,7 @@ textSize(25);
 fill("white");
 text('Missed Fruits : '+missedfruit, width/2,28)
 textAlign(LEFT,CENTER );
-text('Score : '+score,10,28);
+text('Score : '+score,333,28);
 textAlign(RIGHT,CENTER )
-text('Time : '+timer+'s',width-10,28);
+text('Time : '+timer+'s',width-333,28);
 }
