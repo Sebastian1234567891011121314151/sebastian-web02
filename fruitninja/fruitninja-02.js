@@ -42,7 +42,7 @@ if (kb.presses('space')){
  gameStart=true;
 
 }
-if (frameCount)
+if (frameCount % 60 ===0)
 if(gameStart){
     displayPLAY();
 
