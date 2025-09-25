@@ -87,6 +87,7 @@ gameStart2();
 }//last line
 
 function gameStart2(){
+    clear
     let textmid =width/2;
 
     textAlign(CENTER , CENTER);
@@ -127,6 +128,7 @@ text('Press SPACE to Restart',textmid,450);
 
 
 function displayPLAY(){
+    clear()
 textAlign(CENTER,CENTER )
 textSize(25);
 fill("white");
