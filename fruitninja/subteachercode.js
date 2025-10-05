@@ -4,15 +4,16 @@ let dogoBG;
 let fruitHalves;
 function preload(){
      dogoBG = loadImage('assets/dojobackground.png');
-//declare peach 
+    //declare peach 
     let peach = {
         whole:loadImage('assets/peachwhole.png'),
         half:loadImage('assets/peachhalf.png')
-    }
+    };
     let watermelon = {
-        whole: loadImage('assets/watermelonwhole.png'),
-        half:loadImage('assets/watermelonhalf.png')
+        whole:loadImage('assets/watermelonwhole.png'),
+        half: loadImage('assets/watermelonhalf.png')
     }
+
     
     //store the fruit objject into fruitTypes array[]
     fruitTypes = [peach,watermelon];
@@ -22,7 +23,7 @@ function setup(){
     //set gravity to 10
     world.gravity.y = 10;
     fruitGroup= new Group();
-    fruitHalves=new Group();
+    fruitHalves = new Group();
 }
 function draw(){
     clear();
@@ -36,7 +37,9 @@ function draw(){
         trail.collider = 'none';
         trail.color ="red";
         trail.life = 10;
+        sliceFruit();
     }
+   
 }
 
 function spawnFruit(){
@@ -52,39 +55,36 @@ function spawnFruit(){
 
 function sliceFruit(){
     for(let fruit of fruitGroup){
-        if(fruit.scliced){
+        if(fruit.sliced){
             continue;
         }
-    let distance=dist(mouse.x,mouse.y,fruit.x,fruit.y);
-    if(distance<((fruit.diameter/2)+5)){    
-        const fx =fruit.x;
-        const fy =fruit.y;
-        fruit.sliced=true;
-        fruit.remove();
-        splitFruit(fx,fy,fruit.type);
-    
-    break;
+        let distance  = dist(mouse.x,mouse.y,fruit.x,fruit.y);
+        if(distance<((fruit.diameter/2)+5)){
+            const fx = fruit.x;
+            const fy = fruit.y;
+            fruit.sliced= true;
+            fruit.remove();
+            splitFruit(fx,fy,fruit.type);
+
+            break;
         }
     }
 }
-
-
 function splitFruit(x,y,fruitData){
-let left=new fruitHalves.Sprite(x-10,y,40,40);
-left.img = fruitData.half;
-left.vel.x=-3;
-left.vel.y=random(-5,-2);
-left.rotationSpeed=-5;
-left.life=30;
+    let left = new fruitHalves.Sprite(x-10,y,40,40);
+    left.img = fruitData.half;
+    //set the physics
+    left.vel.x = -3;
+    left.vel.y = random(-5,-2);
+    left.rotationSpeed = -5;
+    left.life = 30;
 
-let right=new fruitHalves.Sprite(x+10,y,40,40);
-right.img = fruitData.half;
-right.vel.x=3;
-right.vel.y=random(-5,-2);
-right.rotationSpeed=5;
-right.life=30;
-
-
-
-
+    //do for the right as well
+    let right = new fruitHalves.Sprite(x-10,y,40,40);
+    right.img = fruitData.half;
+    //set the physics
+    right.vel.x = 3;
+    right.vel.y = random(-5,-2);
+    right.rotationSpeed = 5;
+    right.life = 30;
 }
