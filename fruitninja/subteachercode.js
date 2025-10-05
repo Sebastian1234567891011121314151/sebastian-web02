@@ -50,11 +50,11 @@ function sliceFruit(){
         if(fruit.scliced){
             continue;
         }
+const fx =fruit.x;
 
 
 
 
 
-        
     }
 }
