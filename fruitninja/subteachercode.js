@@ -54,6 +54,7 @@ const fx =fruit.x;
 const fy =fruit.y;
 fruit.sliced=true;
 fruit.remove();
+splitFruit(fx,fy,fruit.type)
 
 
 
