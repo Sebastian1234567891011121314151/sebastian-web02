@@ -11,7 +11,7 @@ function preload(){
     }
     let watermelon = {
         whole: loadImage('assets/watermelonwhole.png'),
-        half:loadImage('assets/watermelonghalf.png')
+        half:loadImage('assets/watermelonhalf.png')
     }
     
     //store the fruit objject into fruitTypes array[]
