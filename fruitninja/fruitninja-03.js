@@ -17,9 +17,11 @@ backgroundsound= createAudio('assets/fruit-ninja-bgtrack.mp3')
 slicesound=createAudio('assets/fruit-ninja-combo.mp3')
 
 let peach={
-    whole:loadImage('assets/peach')
-}
-
+    whole:loadImage('assets/peachwhole.png')
+};
+let ={
+    whole:loadImage('assets/peachwhole.png')
+};
 
 
 
