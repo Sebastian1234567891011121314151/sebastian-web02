@@ -17,7 +17,7 @@ backgroundsound= createAudio('assets/fruit-ninja-bgtrack.mp3')
 slicesound=createAudio('assets/fruit-ninja-combo.mp3')
 
 let peach={
-    whole:loadImage
+    whole:loadImage('assets/peach')
 }
 
 
