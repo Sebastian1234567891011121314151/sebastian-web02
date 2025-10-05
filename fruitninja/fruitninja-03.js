@@ -20,7 +20,7 @@ let peach={
     whole:loadImage('assets/peachwhole.png')
 };
 let watermelon={
-    whole:loadImage('assets/whole.png')
+    whole:loadImage('assets/watermelonwhole.png')
 };
 
 
