@@ -22,7 +22,7 @@ let peach={
 let watermelon={
     whole:loadImage('assets/watermelonwhole.png')
 };
-
+fruitTypes=[]
 
 
 }
