@@ -70,5 +70,6 @@ function sliceFruit(){
 
 
 function splitFruit(x,y,fruitData){
-let left=new fruitHalves.Sprite(x-10,y,40,40)
+let left=new fruitHalves.Sprite(x-10,y,40,40);
+left.img =
 }
