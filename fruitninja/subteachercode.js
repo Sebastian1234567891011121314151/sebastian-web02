@@ -52,13 +52,13 @@ function sliceFruit(){
         }
     let distance=dist(mouse.x,mouse.y,fruit.x,fruit.y);
     if(distance<((fruit.diameter/2)+5)){    
-     const fx =fruit.x;
-    const fy =fruit.y;
-    fruit.sliced=true;
-    fruit.remove();
-    splitFruit(fx,fy,fruit.type);
+        const fx =fruit.x;
+        const fy =fruit.y;
+        fruit.sliced=true;
+        fruit.remove();
+        splitFruit(fx,fy,fruit.type);
     
     break;
-}
+        }
     }
 }
