@@ -79,7 +79,7 @@ left.life=30;
 
 let right=new fruitHalves.Sprite(x+10,y,40,40);
 right.img = fruitData.half;
-right.vel.x=-3;
+right.vel.x=3;
 right.vel.y=random(-5,-2);
 right.rotationSpeed=-5;
 right.life=30;
