@@ -3,7 +3,7 @@ let fruitTypes =[];
 let dogoBG;
 function preload(){
      dogoBG = loadImage('assets/dojobackground.png');
-    //declare peach 
+//declare peach 
     let peach = {
         whole:loadImage('assets/peachwhole.png')
     };
