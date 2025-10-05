@@ -50,7 +50,7 @@ function sliceFruit(){
         if(fruit.scliced){
             continue;
         }
-    let distance=dist(mouse.x)
+    let distance=dist(mouse.x,mouse.y,fruit.x,fruit.y);
     const fx =fruit.x;
     const fy =fruit.y;
     fruit.sliced=true;
