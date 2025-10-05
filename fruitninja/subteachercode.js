@@ -48,7 +48,13 @@ function spawnFruit(){
 function sliceFruit(){
     for(let fruit of fruitGroup){
         if(fruit.scliced){
-            
+            continue;
         }
+
+
+
+
+
+        
     }
 }
