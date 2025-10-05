@@ -50,12 +50,13 @@ function sliceFruit(){
         if(fruit.scliced){
             continue;
         }
-const fx =fruit.x;
-const fy =fruit.y;
-fruit.sliced=true;
-fruit.remove();
-splitFruit(fx,fy,fruit.type);
-break;
+    const fx =fruit.x;
+    const fy =fruit.y;
+    fruit.sliced=true;
+    fruit.remove();
+    splitFruit(fx,fy,fruit.type);
+    
+    break;
 
     }
 }
