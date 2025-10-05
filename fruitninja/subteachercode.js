@@ -1,15 +1,19 @@
 let fruitGroup;
 let fruitTypes =[];
 let dogoBG;
+let fruitHalves;
 function preload(){
      dogoBG = loadImage('assets/dojobackground.png');
 //declare peach 
     let peach = {
-        whole:loadImage('assets/peachwhole.png')
-    };
-    let watermelon = {
-        whole: loadImage('assets/watermelonwhole.png')
+        whole:loadImage('assets/peachwhole.png'),
+        half:loadImage('assets/peachhalf.png')
     }
+    let watermelon = {
+        whole: loadImage('assets/watermelonwhole.png'),
+        half:loadImage('assets/watermelonghalf.png')
+    }
+    
     //store the fruit objject into fruitTypes array[]
     fruitTypes = [peach,watermelon];
 }
@@ -18,6 +22,7 @@ function setup(){
     //set gravity to 10
     world.gravity.y = 10;
     fruitGroup= new Group();
+    fruitHalves=new Group();
 }
 function draw(){
     clear();
@@ -65,5 +70,5 @@ function sliceFruit(){
 
 
 function splitFruit(x,y,fruitData){
-    
+
 }
