@@ -52,6 +52,7 @@ function sliceFruit(){
         }
 const fx =fruit.x;
 const fy =fruit.y;
+fruit.sliced=true
 
 
 
