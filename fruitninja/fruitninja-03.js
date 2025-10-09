@@ -6,7 +6,7 @@ let gameStart=false
 let fruitGroup
 let fruitTypes=[]
 let FCstart=0
-
+let fruitHalves;
 let bgsound,combosound
 
 
