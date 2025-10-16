@@ -20,6 +20,7 @@ function setup(){
     console.log(apple);
     let shopkeeper = [apple];
     
+    console.log(shopkeeper)
 
 
 }
