@@ -17,6 +17,7 @@ function setup(){
 
     watermelon=new Sprite(200,300,50);
     watermelon.img=watermelonimg
+    watermelon.velocity.y=0.9
 
 
 
