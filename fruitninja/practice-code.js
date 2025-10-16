@@ -1,5 +1,5 @@
 function setup(){
- 
+    new Canvas()
 
 
     // let fruitshop ={
