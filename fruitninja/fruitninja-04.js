@@ -33,7 +33,7 @@ let lemon={
     half:loadImage('assets/cut_lemon.png')
 };
 let bomb={
-    whole:loadImage
+    whole:loadImage('assets/')
 }
 fruitTypes=[peach,watermelon]
 
