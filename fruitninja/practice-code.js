@@ -14,7 +14,7 @@ function setup(){
     new Canvas(400,600)
     background("white")
 
-    watermelon=new Sprite (400,300,50);
+    watermelon=new Sprite (200,300,50);
     watermelon.img=watermelonimg
 
 
