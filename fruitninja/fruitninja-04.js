@@ -193,6 +193,7 @@ function sliceFruit(){
         if(distance<((fruit.diameter/2)+5)){
             const fx = fruit.x;
             const fy = fruit.y;
+            const fruit=
             fruit.sliced= true;
             fruit.remove();
             score++
