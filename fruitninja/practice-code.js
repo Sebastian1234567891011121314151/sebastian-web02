@@ -5,7 +5,7 @@ let bg
 
 function preload(){
     watermelon=loadImage('assets/watermelonwhole.png')
-    bg=loadImage('fruitninja/assets/dojobackground.png')
+    bg=loadImage('assets/dojobackground.png')
     
 }
 
