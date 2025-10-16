@@ -4,7 +4,7 @@ let watermelonimg
 let bg
 
 function preload(){
-    watermelon=loadImage('assets/watermelonwhole.png')
+    watermelonimg=loadImage('assets/watermelonwhole.png')
     bg=loadImage('assets/dojobackground.png')
     
 }
@@ -15,7 +15,7 @@ function setup(){
     background("white")
 
     watermelon=new Sprite(200,300,50);
-    watermelon.img=watermelon
+    watermelon.img=watermelonimg
 
 
 
