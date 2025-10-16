@@ -17,8 +17,17 @@ function setup(){
         price:0.4,
         quantity:50
     };
+
+    let lemon ={
+        name:"Lemon",
+        price:0.2,
+        quantity:100
+    };
+
+
+
     console.log(apple);
-    let shopkeeper = [apple];
+    let shopkeeper = [apple,lemon];
     
     console.log(shopkeeper)
 
