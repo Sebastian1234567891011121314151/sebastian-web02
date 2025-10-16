@@ -2,7 +2,7 @@ function setup(){
     new Canvas(400,600)
     let watermelon
     let bg
-    background("whte")
+    background(loadImage)
 
 
 
