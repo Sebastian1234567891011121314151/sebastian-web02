@@ -61,6 +61,6 @@ function preload(){
 
 
 function draw(){
-    image(200,300,45,60)
+    image(watermelon,200,300,45,60)
 }
 
