@@ -186,9 +186,7 @@ function sliceFruit(){
         if(fruit.sliced){
             continue;
         }
-        if(fruitTypes==="bomb"){
-            displayGO;
-        }
+
         let distance  = dist(mouse.x,mouse.y,fruit.x,fruit.y);
         if(distance<((fruit.diameter/2)+5)){
             const fx = fruit.x;
@@ -196,6 +194,10 @@ function sliceFruit(){
             const fruit=fruit.type
             fruit.sliced= true;
             fruit.remove();
+
+
+
+            
             score++
             splitFruit(fx,fy,fruit.type);
 
