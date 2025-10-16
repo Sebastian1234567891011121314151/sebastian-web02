@@ -61,6 +61,6 @@ function preload(){
 
 
 function draw(){
-    new Sprite
+    new Sprite ()
 }
 
