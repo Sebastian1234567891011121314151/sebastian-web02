@@ -194,7 +194,7 @@ function sliceFruit(){
             const fruit=fruit.type
             fruit.sliced= true;
             fruit.remove();
-        if(fruitTypes==="bomb"){
+        if(fruit==="bomb"){
             displayGO;
         }
         else{
