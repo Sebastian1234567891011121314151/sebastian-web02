@@ -194,13 +194,13 @@ function sliceFruit(){
             const fruit= fruit.type
             fruit.sliced= true;
             fruit.remove();
-        if(fruit==="bomb"){
-            displayGO;
-        }
-        else{
-            score++
-        }
-        splitFruit(fx,fy,fruit.type);
+            if(fruit==="bomb"){
+                displayGO;
+            }
+            else{
+                score++
+            }
+            splitFruit(fx,fy,fruit.type);
 
             break;
         }
