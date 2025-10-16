@@ -48,7 +48,7 @@ function setup(){
 
 }
 function preload(){
-    loadImage('assets/watermelonsplash.png')
+    watermelon=loadImage('assets/watermelonsplash.png')
     new Sprite 
 }
 
