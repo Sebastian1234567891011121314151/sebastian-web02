@@ -49,7 +49,7 @@ function setup(){
 }
 function preload(){
     loadImage('assets/watermelonsplash.png')
-    
+    new Sprite 
 }
 
 
