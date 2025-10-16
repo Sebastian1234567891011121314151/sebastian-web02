@@ -1,16 +1,16 @@
 let bg;
 
-let score=1;
-let missedfruit=10;
+let score=0;
+let missedfruit=0;
 let timer=60
 
 
 let gameState="start"
-// let fruitGroup
+let fruitGroup
 
-// let fruitTypes=[]
+let fruitTypes=[]
 let FCstart=0
-// let fruitHalves;
+let fruitHalves;
 let bgsound,combosound
 
 
@@ -20,13 +20,15 @@ function preload(){
 backgroundsound= createAudio('assets/fruit-ninja-bgtrack.mp3')
 slicesound=createAudio('assets/fruit-ninja-combo.mp3')
 
-// let peach={
-//     whole:loadImage('assets/peachwhole.png')
-// };
-// let watermelon={
-//     whole:loadImage('assets/watermelonwhole.png')
-// };
-// fruitTypes=[peach,watermelon]
+let peach={
+    whole:loadImage('assets/peachwhole.png'),
+    half:loadImage('assets/peachhalf.png')
+};
+let watermelon={
+    whole:loadImage('assets/watermelonwhole.png'),
+    half:loadImage('assets/watermelonhalf.png')
+};
+fruitTypes=[peach,watermelon]
 
 
 }
@@ -38,6 +40,10 @@ function setup(){
     new Canvas(1000,600);
     background("white");
     world.gravity.y=10;
+
+    fruitGroup= new Group();
+    fruitHalves=new Group();
+
 }
 
 
@@ -69,21 +75,24 @@ function draw(){
         }
         if (timer===0){
             gameState = "gameover";
+            timer=60;
+            score=0;
+            missedfruit=0;
             return;
         }
-//     if(kb.presses('1')){
-//     backgroundsound.loop();
-// }
-//     else if (kb.presses('2')){
-//     backgroundsound.stop();
-// }
-//     else if (kb.presses('3')){
-//     slicesound.play();
-// }
-// if (mouse.presses()){
-//     let ball=new Sprite(mouseX,mouseY,30)
-//     ball.vel.y=random(-5,-20)
-// }
+        if (frameCount % 60===0){
+            spawnFruit()
+        }
+        for(let one of fruitGroup){
+            if (one.y>height+10){
+                missedfruit++;
+                one.remove();
+            }
+        }
+    sliceFruit();
+
+
+        
 // slice animation
         if (mouse.pressing()){
             let trail = new Sprite(mouseX,mouseY,7);
@@ -156,42 +165,70 @@ function gamePlay(){
     text('Score : '+score,333,28);
     textAlign(LEFT,CENTER )
     text('Time : '+timer+'s',width-333,28);
+    text('Number of Fruits:' + fruitGroup.length , 100,60)
+    
+
+
 }
 
-// function sliceFruit(){
-//     for(let fruit of fruitGroup){
-//         if(fruit.sliced){
-//             continue;
-//         }
-//         let distance  = dist(mouse.x,mouse.y,fruit.x,fruit.y);
-//         if(distance<((fruit.diameter/2)+5)){
-//             const fx = fruit.x;
-//             const fy = fruit.y;
-//             fruit.sliced= true;
-//             fruit.remove();
-//             splitFruit(fx,fy,fruit.type);
+function sliceFruit(){
+    for(let fruit of fruitGroup){
+        if(fruit.sliced){
+            continue;
+        }
+        let distance  = dist(mouse.x,mouse.y,fruit.x,fruit.y);
+        if(distance<((fruit.diameter/2)+5)){
+            const fx = fruit.x;
+            const fy = fruit.y;
+            fruit.sliced= true;
+            fruit.remove();
+            splitFruit(fx,fy,fruit.type);
 
-//             break;
-//         }
-//     }
-// }
+            break;
+        }
+    }
+}
+
+function spawnFruit(){
+    let one= new fruitGroup.Sprite();
+
+    let selected=random(fruitTypes);
+    one.img=selected.whole;
+    one.type=selected;
+
+    one.diameter=40;
+    one.x=random(200,700);
+    one.y=height-100;
+
+    one.vel.y=random(-12,-7);
+    one.vel.x=random(-3,3);
+    one.friction=0;
 
 
-// function splitFruit(x,y,fruitData){
-//     let left = new fruitHalves.Sprite(x-10,y,40,40);
-//     left.img = fruitData.half;
-//     //set the physics
-//     left.vel.x = -3;
-//     left.vel.y = random(-5,-2);
-//     left.rotationSpeed = -5;
-//     left.life = 30;
+}
 
-//     //do for the right as well
-//     let right = new fruitHalves.Sprite(x-10,y,40,40);
-//     right.img = fruitData.half;
-//     //set the physics
-//     right.vel.x = 3;
-//     right.vel.y = random(-5,-2);
-//     right.rotationSpeed = 5;
-//     right.life = 30;
-// }
+
+
+
+
+
+
+
+function splitFruit(x,y,fruitData){
+    let left = new fruitHalves.Sprite(x-10,y,40,40);
+    left.img = fruitData.half;
+    //set the physics
+    left.vel.x = -3;
+    left.vel.y = random(-5,-2);
+    left.rotationSpeed = -5;
+    left.life = 30;
+
+    //do for the right as well
+    let right = new fruitHalves.Sprite(x-10,y,40,40);
+    right.img = fruitData.half;
+    //set the physics
+    right.vel.x = 3;
+    right.vel.y = random(-5,-2);
+    right.rotationSpeed = 5;
+    right.life = 30;
+}

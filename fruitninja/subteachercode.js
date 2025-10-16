@@ -1,5 +1,4 @@
-let fruitGroup;
-let fruitTypes =[];
+let fruitHalves;
 let dogoBG;
 let fruitHalves;
 function preload(){
@@ -42,16 +41,13 @@ function draw(){
    
 }
 
-function spawnFruit(){
-    let fruitData = random(fruitTypes);
-    let randomX = random(300,500);
-    let fruit = new fruitGroup.Sprite(randomX,600+20,40); 
-    fruit.image = fruitData.whole;
-    fruit.type = fruitData;
-    fruit.vel.y = random(-10,-14);
-    fruit.vel.x = random(-2,2);
-    fruit.friction = 0;
-}
+    if(mouse.pressing()){
+        trail = new Sprite(mouse.x,mouse.y,8);
+        trail.collider = 'none';
+        trail.color ="white";
+        trail.life = 10;
+        sliceFruit();
+    }
 
 function sliceFruit(){
     for(let fruit of fruitGroup){
