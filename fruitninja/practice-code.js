@@ -69,7 +69,7 @@ function setup(){
 function draw(){
     image(bg,0,0,width,height)
     if (mouse.presses()){
-        watermelon.veloct87
+        watermelon.velocity.y=-10
 }
 
 }
