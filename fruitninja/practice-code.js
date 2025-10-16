@@ -15,7 +15,7 @@ function setup(){
     background("white")
 
     watermelon=new Sprite(200,300,50);
-    watermelon.img=watermelonimg
+    watermelon.img=watermelon
 
 
 
