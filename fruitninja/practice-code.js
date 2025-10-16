@@ -17,7 +17,9 @@ function setup(){
 
     watermelon=new Sprite(200,300,50);
     watermelon.img=watermelonimg
-
+if (mouse.presses){
+    
+}
 
 
 
