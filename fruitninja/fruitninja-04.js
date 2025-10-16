@@ -197,9 +197,8 @@ function sliceFruit(){
         if(fruitTypes==="bomb"){
             displayGO;
         }
-
-
-            score++
+        else{score++
+        }
             splitFruit(fx,fy,fruit.type);
 
             break;
