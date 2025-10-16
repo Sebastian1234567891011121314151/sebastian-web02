@@ -26,13 +26,13 @@ function setup(){
     let watermelon ={
         name:"Watermelon",
         price:1.3,
-        quantity:100
+        quantity:20
     };
 
 
 
     console.log(apple);
-    let shopkeeper = [apple,lemon];
+    let shopkeeper = [apple,lemon,watermelon];
     
     console.log(shopkeeper)
 
