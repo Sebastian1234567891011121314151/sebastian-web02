@@ -183,6 +183,7 @@ function gamePlay(){
 
 function sliceFruit(){
     for(let fruit of fruitGroup){
+        if
         if(fruit.sliced){
             continue;
         }
