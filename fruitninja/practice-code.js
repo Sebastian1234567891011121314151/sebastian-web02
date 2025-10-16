@@ -1,4 +1,7 @@
 function setup(){
+ 
+
+
     // let fruitshop ={
     //     apple: 0.3,
     //     pineapple:1.6,
