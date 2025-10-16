@@ -54,13 +54,13 @@ function setup(){
 }
 function preload(){
     watermelon=loadImage('assets/watermelonsplash.png')
-    new Sprite 
+    
 }
 
 
 
 
 function draw(){
-
+    new Sprite
 }
 
