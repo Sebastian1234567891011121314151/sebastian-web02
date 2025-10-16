@@ -14,7 +14,8 @@ function setup(){
 
     let apple ={
         name:"Apple",
-        price:
+        price:0.4,
+        
     }
 
 
