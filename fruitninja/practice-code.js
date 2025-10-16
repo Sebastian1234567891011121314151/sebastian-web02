@@ -35,7 +35,7 @@ function setup(){
     let shopkeeper = [apple,lemon,watermelon];
     let randomFruit = random(shopkeeper)
     console.log(shopkeeper)
-    console.log()
+    console.log(randomFruit)
 
 
 }
