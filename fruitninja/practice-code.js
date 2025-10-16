@@ -11,7 +11,7 @@ function preload(){
 
 
 function setup(){
-    world.gravity.y=
+    world.gravity.y=0.9
     new Canvas(400,600)
     background("white")
 
