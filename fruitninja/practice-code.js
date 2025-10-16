@@ -48,7 +48,7 @@ function setup(){
 
 }
 function preload(){
-    
+    watermelon= loadImage('')
 }
 
 
