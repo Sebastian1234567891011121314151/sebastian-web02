@@ -23,6 +23,11 @@ function setup(){
         price:0.2,
         quantity:100
     };
+    let watermelon ={
+        name:"Lemon",
+        price:0.2,
+        quantity:100
+    };
 
 
 
