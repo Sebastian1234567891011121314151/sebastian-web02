@@ -61,6 +61,6 @@ function preload(){
 
 
 function draw(){
-    let watermelon=new Sprite ()
+    let watermelon=new Sprite (200,300,45,60)
 }
 
