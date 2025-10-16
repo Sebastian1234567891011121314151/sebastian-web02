@@ -29,7 +29,8 @@ let watermelon={
     half:loadImage('assets/watermelonhalf.png')
 };
 let lemon={
-    whole:loadImage('assets/')
+    whole:loadImage('assets/lemon.png'),
+    
 }
 fruitTypes=[peach,watermelon]
 
