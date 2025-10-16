@@ -1,8 +1,9 @@
 function setup(){
     new Canvas(400,600)
-    background("white")
-    let watermelon
+        let watermelon
     let bg
+    background("white")
+
 
 
     // let fruitshop ={
