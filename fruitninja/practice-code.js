@@ -1,6 +1,6 @@
 
 
-let watermelon
+let watermelonimg
 let bg
 
 
@@ -8,6 +8,7 @@ function setup(){
     new Canvas(400,600)
     background("white")
 
+    watermelon=new Sprite (400,300,50);
 
 
 
@@ -52,15 +53,12 @@ function setup(){
 
 
 }
-function preload(){
-    watermelon=loadImage('assets/watermelonwhole.png')
-    
-}
+
 
 
 
 
 function draw(){
-    image(watermelon,200,300,60,45)
+    
 }
 
