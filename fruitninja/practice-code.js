@@ -17,7 +17,8 @@ function setup(){
         price:0.4,
         quantity:50
     };
-    console.log(fruit)
+    console.log(apple);
+    
 
 
 }
