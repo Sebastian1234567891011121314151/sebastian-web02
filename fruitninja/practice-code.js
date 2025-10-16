@@ -48,7 +48,7 @@ function setup(){
 
 }
 function preload(){
-    watermelon= loadImage('fruitninja/assets/watermelonsplash.png')
+    watermelon= loadImage('assets/watermelonsplash.png')
 }
 
 
