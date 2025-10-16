@@ -1,8 +1,8 @@
 function setup(){
     new Canvas(400,600)
-        let watermelon
+    let watermelon
     let bg
-    background("white")
+    background("whte")
 
 
 
