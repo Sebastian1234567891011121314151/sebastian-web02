@@ -48,7 +48,7 @@ function setup(){
 
 }
 function preload(){
-    watermelon.img= loadImage('assets/watermelonsplash.png')
+    loadImage('assets/watermelonsplash.png')
     
 }
 
