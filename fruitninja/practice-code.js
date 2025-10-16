@@ -3,6 +3,12 @@
 let watermelonimg
 let bg
 
+function preload(){
+    watermelon=loadImage('assets/watermelonwhole.png')
+    bg=loadImage
+    
+}
+
 
 function setup(){
     new Canvas(400,600)
