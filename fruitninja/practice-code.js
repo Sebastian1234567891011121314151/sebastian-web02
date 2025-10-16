@@ -33,7 +33,7 @@ function setup(){
 
     console.log(apple);
     let shopkeeper = [apple,lemon,watermelon];
-    let randomFruit
+    let randomFruit = random(shopkeeper)
     console.log(shopkeeper)
     console.log()
 
