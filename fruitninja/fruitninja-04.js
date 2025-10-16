@@ -35,7 +35,7 @@ let lemon={
 let bomb={
     whole:loadImage('assets/fruitbomb.png')
 };
-fruitTypes=[peach,watermelon]
+fruitTypes=[peach,watermelon,lemon,bomb]
 
 
 }
