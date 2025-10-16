@@ -65,6 +65,6 @@ function setup(){
 
 
 function draw(){
-    Image(bg,400,600,)
+    Image(bg,0,0,)
 }
 
