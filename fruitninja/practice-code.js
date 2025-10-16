@@ -1,5 +1,6 @@
 function setup(){
     new Canvas(400,600)
+    background("white")
     let watermelon
     let bg
 
