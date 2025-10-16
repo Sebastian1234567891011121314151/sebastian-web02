@@ -35,6 +35,7 @@ function setup(){
     let shopkeeper = [apple,lemon,watermelon];
     
     console.log(shopkeeper)
+    con
 
 
 }
