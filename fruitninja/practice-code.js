@@ -17,7 +17,7 @@ function setup(){
 
     watermelon=new Sprite(200,300,50);
     watermelon.img=watermelonimg
-    watermelon.velocity.y=0.9
+
 
 
 
@@ -69,7 +69,7 @@ function setup(){
 function draw(){
     image(bg,0,0,width,height)
     if (mouse.presses()){
-
+        
 }
 
 }
