@@ -12,6 +12,10 @@ function setup(){
     console.log(fruitshop)
 
 
+    let apple ={
+        
+    }
+
 
 }
 
