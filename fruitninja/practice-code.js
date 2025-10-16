@@ -53,7 +53,7 @@ function setup(){
 
 }
 function preload(){
-    watermelon=loadImage('assets/watermelonsplash.png')
+    watermelon=loadImage('assets/watermelonwhole.png')
     
 }
 
@@ -61,6 +61,6 @@ function preload(){
 
 
 function draw(){
-    image(watermelon,200,300,45,60)
+    image(watermelon,200,300,60,60)
 }
 
