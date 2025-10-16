@@ -13,7 +13,8 @@ function setup(){
 
 
     let apple ={
-        
+        name:"Apple",
+        price:
     }
 
 
