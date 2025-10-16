@@ -183,6 +183,7 @@ function sliceFruit(){
             const fy = fruit.y;
             fruit.sliced= true;
             fruit.remove();
+            score++
             splitFruit(fx,fy,fruit.type);
 
             break;
