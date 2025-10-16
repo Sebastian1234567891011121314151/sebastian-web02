@@ -15,7 +15,7 @@ function setup(){
     background("white")
 
     watermelon=new Sprite (400,300,50);
-    wat
+    watermelon=watermelong
 
 
 
