@@ -33,9 +33,9 @@ function setup(){
 
     console.log(apple);
     let shopkeeper = [apple,lemon,watermelon];
-    
+    let randomFruit
     console.log(shopkeeper)
-    con
+    console.log()
 
 
 }
