@@ -18,7 +18,7 @@ function setup(){
         quantity:50
     };
     console.log(apple);
-    
+    let shopkeeper = [apple]
 
 
 }
