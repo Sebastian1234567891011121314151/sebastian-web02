@@ -101,6 +101,7 @@ function draw(){
             trail.stroke="white"
             trail.collider="none"
             trail.life=10;
+            sliceFruit();
         }
     }
     else if(gameState==="gameover"){
