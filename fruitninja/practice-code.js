@@ -16,7 +16,8 @@ function setup(){
         name:"Apple",
         price:0.4,
         quantity:50
-    }
+    };
+    
 
 
 }
