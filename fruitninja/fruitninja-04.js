@@ -186,7 +186,7 @@ function sliceFruit(){
         if(fruit.sliced){
             continue;
         }
-        if(fruitTypes.bomb){
+        if(one.type=bomb){
             displayGO;
         }
         let distance  = dist(mouse.x,mouse.y,fruit.x,fruit.y);
