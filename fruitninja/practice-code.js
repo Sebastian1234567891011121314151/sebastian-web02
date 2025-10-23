@@ -79,6 +79,7 @@ let sentence=[
     "There was a student",
     "who started how not to code",
     "and this isn't their story...",
+    ""
 ];
 
 function setup(){
