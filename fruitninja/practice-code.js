@@ -83,7 +83,7 @@ let sentence = [
 ];
 
 let yPos;      // starting vertical position
-let speed = 2; // scroll speed
+let speed = 5; // scroll speed
 
 function setup() {
   createCanvas(1400, 600); // fixed to createCanvas (p5.js standard)
