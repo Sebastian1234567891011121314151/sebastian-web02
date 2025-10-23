@@ -102,6 +102,9 @@ function draw(){
     for(let i =0;i<sentence.length;i++){
         textY=textY+50
         text(sentence[i],width/2,textY);
+
+
+        
     }
     
 
