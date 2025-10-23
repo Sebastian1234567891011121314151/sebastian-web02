@@ -94,5 +94,5 @@ function draw(){
     for(let i =0;i<sentence.length;i++){
         text('sentence(i)');
     }
-    text("hi",width/2,height/2);
+
 }
