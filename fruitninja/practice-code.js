@@ -92,7 +92,7 @@ function draw(){
     textAlign(CENTER,CENTER)
     textSize(48);
     for(let i =0;i<sentence.length;i++){
-        
+        text()
     }
     text("hi",width/2,height/2)
 }
