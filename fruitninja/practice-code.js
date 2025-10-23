@@ -88,11 +88,11 @@ function setup(){
 }
 
 function draw(){
-    fill('white')
-    textAlign(CENTER,CENTER)
+    fill('white');
+    textAlign(CENTER,CENTER);
     textSize(48);
     for(let i =0;i<sentence.length;i++){
-        text(sentence(i))
+        text('sentence(i)');
     }
-    text("hi",width/2,height/2)
+    text("hi",width/2,height/2);
 }
