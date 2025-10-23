@@ -82,7 +82,8 @@ function setup(){
 }
 
 function draw(){
-    fill
+    fill('white')
+    textAlign
     textSize(48);
     text("Hello",width/2,height/2)
 }
