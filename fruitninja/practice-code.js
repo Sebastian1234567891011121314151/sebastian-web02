@@ -91,6 +91,7 @@ let textY
 function setup(){
     new Canvas(1400,600);
     background('black');
+    textY=50
 }
 
 function draw(){
@@ -100,5 +101,6 @@ function draw(){
     for(let i =0;i<sentence.length;i++){
         text(sentence[i],width/2,height/2);
     }
+    
 
 }
