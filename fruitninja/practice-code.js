@@ -79,7 +79,7 @@ let sentence=[
     "There was a student",
     "who started how not to code",
     "and this isn't their story...",
-    ""
+    "SIXXX SEVENNNNNNN"
 ];
 
 function setup(){
@@ -91,5 +91,6 @@ function draw(){
     fill('white')
     textAlign(CENTER,CENTER)
     textSize(48);
+    for(let i =0;i<sentence.length;)
     text("hi",width/2,height/2)
 }
