@@ -91,11 +91,11 @@ let textY
 function setup(){
     new Canvas(1400,600);
     background('black');
-    textY=30
+    
 }
 
 function draw(){
-
+    textY=30
     fill('white');
     textAlign(CENTER,CENTER);
     textSize(48);
