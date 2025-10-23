@@ -115,60 +115,64 @@
 // }
 
 
-let bird;
-let pipes = [];
+let player;
+let obstacles = [];
 let score = 0;
 let gameOver = false;
+let groundHeight = 100;
 
 function setup() {
-  createCanvas(400, 600);
-  bird = new Bird();
-  pipes.push(new Pipe());
+  createCanvas(800, 400);
+  player = new Player();
+  obstacles.push(new Obstacle());
 }
 
 function draw() {
-  background(135, 206, 235);
+  background(30);
+
+  // Ground
+  fill(60);
+  rect(0, height - groundHeight, width, groundHeight);
 
   if (!gameOver) {
-    // Update and show pipes
-    for (let i = pipes.length - 1; i >= 0; i--) {
-      pipes[i].update();
-      pipes[i].show();
+    // Player actions
+    player.update();
+    player.show();
 
-      // Check for collision
-      if (pipes[i].hits(bird)) {
+    // Obstacles
+    for (let i = obstacles.length - 1; i >= 0; i--) {
+      obstacles[i].update();
+      obstacles[i].show();
+
+      if (obstacles[i].hits(player)) {
         gameOver = true;
       }
 
-      // Add new pipes
-      if (pipes[i].offscreen()) {
-        pipes.splice(i, 1);
+      if (obstacles[i].offscreen()) {
+        obstacles.splice(i, 1);
         score++;
       }
     }
 
+    // Add new obstacles
     if (frameCount % 90 === 0) {
-      pipes.push(new Pipe());
+      obstacles.push(new Obstacle());
     }
-
-    // Bird actions
-    bird.update();
-    bird.show();
 
     // Score
     fill(255);
     textSize(32);
-    textAlign(CENTER);
-    text(score, width / 2, 50);
+    textAlign(LEFT);
+    text(`Score: ${score}`, 20, 40);
   } else {
-    // Game Over Screen
+    // Game Over
     fill(255, 0, 0);
     textSize(48);
     textAlign(CENTER);
-    text("Game Over", width / 2, height / 2);
-    textSize(24);
+    text("Game Over!", width / 2, height / 2 - 20);
     fill(255);
-    text("Press SPACE to restart", width / 2, height / 2 + 50);
+    textSize(24);
+    text("Press SPACE to restart", width / 2, height / 2 + 20);
   }
 }
 
@@ -177,89 +181,84 @@ function keyPressed() {
     if (gameOver) {
       resetGame();
     } else {
-      bird.up();
+      player.jump();
     }
   }
 }
 
-// Bird class
-class Bird {
+// Player class
+class Player {
   constructor() {
-    this.y = height / 2;
-    this.x = 64;
-    this.gravity = 0.6;
-    this.lift = -12;
-    this.velocity = 0;
+    this.size = 40;
+    this.x = 100;
+    this.y = height - groundHeight - this.size;
+    this.vy = 0;
+    this.gravity = 1;
+    this.jumpForce = -15;
+    this.onGround = true;
   }
 
   show() {
-    fill(255, 255, 0);
-    ellipse(this.x, this.y, 32, 32);
+    fill(0, 255, 255);
+    rect(this.x, this.y, this.size, this.size);
   }
 
-  up() {
-    this.velocity += this.lift;
+  jump() {
+    if (this.onGround) {
+      this.vy = this.jumpForce;
+      this.onGround = false;
+    }
   }
 
   update() {
-    this.velocity += this.gravity;
-    this.velocity *= 0.9;
-    this.y += this.velocity;
+    this.y += this.vy;
+    this.vy += this.gravity;
 
-    if (this.y > height) {
-      this.y = height;
-      this.velocity = 0;
-    }
-
-    if (this.y < 0) {
-      this.y = 0;
-      this.velocity = 0;
+    // Ground collision
+    if (this.y + this.size >= height - groundHeight) {
+      this.y = height - groundHeight - this.size;
+      this.vy = 0;
+      this.onGround = true;
     }
   }
 }
 
-// Pipe class
-class Pipe {
+// Obstacle class
+class Obstacle {
   constructor() {
-    this.spacing = 150;
-    this.top = random(height / 6, (3 / 4) * height);
-    this.bottom = height - (this.top + this.spacing);
+    this.size = random(30, 50);
     this.x = width;
-    this.w = 60;
-    this.speed = 3;
-  }
-
-  hits(bird) {
-    if (
-      bird.y < this.top ||
-      bird.y > height - this.bottom
-    ) {
-      if (bird.x > this.x && bird.x < this.x + this.w) {
-        return true;
-      }
-    }
-    return false;
+    this.y = height - groundHeight - this.size;
+    this.speed = 6;
   }
 
   show() {
-    fill(34, 139, 34);
-    rect(this.x, 0, this.w, this.top);
-    rect(this.x, height - this.bottom, this.w, this.bottom);
+    fill(255, 0, 255);
+    rect(this.x, this.y, this.size, this.size);
   }
 
   update() {
     this.x -= this.speed;
   }
 
+  hits(player) {
+    return (
+      player.x < this.x + this.size &&
+      player.x + player.size > this.x &&
+      player.y < this.y + this.size &&
+      player.y + player.size > this.y
+    );
+  }
+
   offscreen() {
-    return this.x < -this.w;
+    return this.x + this.size < 0;
   }
 }
 
 function resetGame() {
-  pipes = [];
+  player = new Player();
+  obstacles = [];
+  obstacles.push(new Obstacle());
   score = 0;
-  bird = new Bird();
-  pipes.push(new Pipe());
   gameOver = false;
 }
