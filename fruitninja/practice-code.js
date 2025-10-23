@@ -77,8 +77,8 @@
 
 
 function setup(){
-    new Canvas(400,600)
-    background('black')
+    new Canvas(400,600);
+    background('black');
 }
 
 function draw(){
