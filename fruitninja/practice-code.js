@@ -82,7 +82,8 @@ let sentence=[
     "SIXXX SEVENNNNNNN",
 ];
 
-let
+let xpos,ypos
+let textY
 
 
 
