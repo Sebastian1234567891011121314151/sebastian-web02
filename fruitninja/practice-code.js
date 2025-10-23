@@ -95,6 +95,7 @@ function setup(){
 }
 
 function draw(){
+    clear()
     fill('white');
     textAlign(CENTER,CENTER);
     textSize(48);
