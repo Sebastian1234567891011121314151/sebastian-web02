@@ -91,6 +91,8 @@ function draw(){
     fill('white')
     textAlign(CENTER,CENTER)
     textSize(48);
-    for(let i =0;i<sentence.length;)
+    for(let i =0;i<sentence.length;i++){
+        
+    }
     text("hi",width/2,height/2)
 }
