@@ -77,7 +77,7 @@
 
 
 function setup(){
-    new Canvas(400,600);
+    new Canvas(1400,600);
     background('black');
 }
 
