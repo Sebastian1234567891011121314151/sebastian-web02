@@ -77,7 +77,8 @@
 
 
 function setup(){
-    new Canvas()
+    new Canvas(400,600)
+    background()
 }
 
 function draw(){
