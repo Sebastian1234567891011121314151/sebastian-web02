@@ -98,7 +98,7 @@ function draw(){
     textY=30
     fill('white');
     textAlign(CENTER,CENTER);
-    textSize(48);
+    textSize(15);
     for(let i =0;i<sentence.length;i++){
         textY=textY+50
         text(sentence[i],width/2,textY);
