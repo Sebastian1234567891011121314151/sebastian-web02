@@ -74,7 +74,9 @@
 
 // }
 
-let sentence=[];
+let sentence=[
+    ""
+];
 
 function setup(){
     new Canvas(1400,600);
