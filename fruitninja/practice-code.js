@@ -85,5 +85,5 @@ function draw(){
     fill('white')
     textAlign(CENTER,CENTER)
     textSize(48);
-    text("Hello",width/2,height/2)
+    text("",width/2,height/2)
 }
