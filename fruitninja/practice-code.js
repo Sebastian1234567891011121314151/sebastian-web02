@@ -76,7 +76,8 @@
 
 let sentence=[
     "One Minute Ago...",
-    "There was a student"
+    "There was a student",
+    ""
 ];
 
 function setup(){
