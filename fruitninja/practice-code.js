@@ -100,7 +100,7 @@ function draw(){
     textAlign(CENTER,CENTER);
     textSize(48);
     for(let i =0;i<sentence.length;i++){
-        textY=textY+10
+        textY=textY+50
         text(sentence[i],width/2,textY);
     }
     
