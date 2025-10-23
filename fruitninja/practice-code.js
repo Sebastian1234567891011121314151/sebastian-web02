@@ -74,38 +74,42 @@
 
 // }
 
-let sentence=[
-    "One Minute Ago...",
-    "There was a student",
-    "who started how not to code",
-    "and this isn't their story...",
-    "SIXXX SEVENNNNNNN",
+let sentence = [
+  "One Minute Ago...",
+  "There was a student",
+  "who started how not to code",
+  "and this isn't their story...",
+  "SIXXX SEVENNNNNNN",
 ];
 
-let xpos,ypos
-let textY
+let yPos;      // starting vertical position
+let speed = 2; // scroll speed
 
-
-
-
-function setup(){
-    new Canvas(1400,600);
-    background('black');
-    
+function setup() {
+  createCanvas(1400, 600); // fixed to createCanvas (p5.js standard)
+  textAlign(CENTER, CENTER);
+  textSize(30);
+  fill('white');
+  yPos = height; // start from bottom
 }
 
-function draw(){
-    textY=30
-    fill('white');
-    textAlign(CENTER,CENTER);
-    textSize(15);
-    for(let i =0;i<sentence.length;i++){
-        textY=textY+50
-        text(sentence[i],width/2,textY);
+function draw() {
+  background('black');
 
+  let lineSpacing = 60; // distance between lines
+  let totalHeight = sentence.length * lineSpacing;
 
-        
-    }
-    
+  // Draw each line
+  for (let i = 0; i < sentence.length; i++) {
+    let y = yPos + i * lineSpacing;
+    text(sentence[i], width / 2, y);
+  }
 
+  // Move text upward
+  yPos -= speed;
+
+  // When text scrolls off top, reset to bottom
+  if (yPos + totalHeight < 0) {
+    yPos = height;
+  }
 }
