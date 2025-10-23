@@ -82,6 +82,11 @@ let sentence=[
     "SIXXX SEVENNNNNNN",
 ];
 
+let
+
+
+
+
 function setup(){
     new Canvas(1400,600);
     background('black');
