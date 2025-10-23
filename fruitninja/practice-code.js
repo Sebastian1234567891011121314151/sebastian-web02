@@ -82,6 +82,7 @@ function setup(){
 }
 
 function draw(){
+    fill
     textSize(48);
-    text("Hello",width/2)
+    text("Hello",width/2,height/2)
 }
