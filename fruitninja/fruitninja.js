@@ -132,7 +132,7 @@ function draw(){
 
         
 // slice animation
-        if (mouse.pressing()||){
+        if (mouse.pressing()||kb.pressing('space')){
             let trail = new Sprite(mouseX,mouseY,7);
             trail.color="white";
             trail.stroke="white"
