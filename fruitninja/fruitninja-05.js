@@ -2,7 +2,7 @@ let bg;
 
 let score=0;
 let missedfruit=0;
-let timer=60
+let timer=5
 
 
 let gameState="start"
@@ -149,7 +149,7 @@ function gameStarting(){
 
 
 function displayGO(){
-    clear();
+    // clear();
     let textmid =width/2;
 
     textAlign(CENTER , CENTER);
