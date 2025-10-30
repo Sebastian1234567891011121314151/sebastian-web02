@@ -279,7 +279,7 @@ let Tim ={name:"Tim",gender:'F',height:140,house:'Bishan'}
 let Cheese ={name:"Cheese",gender:'F',height:160,house:'CheeseTown'}
 let TimChe ={name:"TimChe",gender:'M',height:175,house:'Hougang'}
 let Chee ={name:"Chee",gender:'M',height:167,house:'Hougang'}
-let Teacher ={name:"Teacher",gender:'F',height:160,house:'Hougang'}
+let Teacher ={name:"Teacher",gender:'F',height:160,house:'USA'}
 let Me ={name:"Me",gender:'M',height:164,house:'Hougang'}
 
 
