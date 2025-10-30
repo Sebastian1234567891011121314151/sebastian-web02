@@ -145,7 +145,7 @@ function draw(){
             displayGO();
 
         // wait for player
-        if (kb.presses('space')){
+        if (kb.presses('space')||mou){
             timer=60;
             score=0;
             missedfruit=0;
