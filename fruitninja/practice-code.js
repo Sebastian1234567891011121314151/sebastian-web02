@@ -300,7 +300,7 @@ friends=[TimCheese,Tim,Cheese,TimChe,Chee,Teacher,Me]
 // }
 
 for(let one of friends){
-  if(one.house!=="F")
+  if(one.house!=="Hougang")
     continue;
 console.log(one)
 }
