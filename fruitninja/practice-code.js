@@ -273,7 +273,7 @@ let friends
 
 
 
-
+house:Hougang
 let TimCheese ={name:"TimCheese",gender:"M",height:200}
 let Tim ={name:"Tim",gender:'F',height:140}
 let Cheese ={name:"Cheese",gender:'F',height:160}
