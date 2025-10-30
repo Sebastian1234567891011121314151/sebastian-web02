@@ -3,6 +3,7 @@ let bg;
 let score=0;
 let missedfruit=0;
 let timer=60
+let counter=timer
 
 
 let gameState="start"
