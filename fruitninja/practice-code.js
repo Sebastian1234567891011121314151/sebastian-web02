@@ -274,7 +274,7 @@ function resetGame() {
 
 
 
-let TimCheese ={name:"TimCheese",Gender}
+let TimCheese ={name:"TimCheese",gender:M,}
 
 
 
