@@ -118,10 +118,6 @@ function draw(){
             timer=60;
             score=0;
             missedfruit=0;
-
-
-
-
         gameState="play";
 
         }
