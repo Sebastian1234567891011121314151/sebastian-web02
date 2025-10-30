@@ -274,7 +274,7 @@ function resetGame() {
 
 
 
-
+friends=[]
 
 
 
