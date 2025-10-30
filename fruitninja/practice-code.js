@@ -292,12 +292,16 @@ friends=[TimCheese,Tim,Cheese,TimChe,Chee,Teacher,Me]
 // console.log(one)
 // }
 
+// for(let one of friends){
+//   if(one.house==="Hougang"){
+//     console.log(one)
+//     break;
+//   }
+// }
+
 for(let one of friends){
-  if(one.house==="Hougang"){
-    console.log(one)
-    break;
-  }
+  if(one.gender==="F")
+    continue;
+console.log(one)
 }
-
-
 
