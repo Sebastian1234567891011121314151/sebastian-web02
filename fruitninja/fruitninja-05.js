@@ -85,6 +85,7 @@ function draw(){
         if (timer<=60 & timer>=45){
             if (frameCount % 60===0){
                 spawnFruit()
+                
         }
     }
         else if (timer<=45 & timer>=30){
