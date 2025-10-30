@@ -83,9 +83,7 @@ function draw(){
         }
         if (timer===0){
             gameState = "gameover";
-            timer=60;
-            score=0;
-            missedfruit=0;
+
             return;
         }
         if (frameCount % 60===0){
