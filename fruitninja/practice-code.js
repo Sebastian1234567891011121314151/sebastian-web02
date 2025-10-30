@@ -115,153 +115,153 @@
 // }
 
 
-let player;
-let obstacles = [];
-let score = 0;
-let gameOver = false;
-let groundHeight = 100;
+// let player;
+// let obstacles = [];
+// let score = 0;
+// let gameOver = false;
+// let groundHeight = 100;
 
-function setup() {
-  createCanvas(800, 400);
-  player = new Player();
-  obstacles.push(new Obstacle());
-}
+// function setup() {
+//   createCanvas(800, 400);
+//   player = new Player();
+//   obstacles.push(new Obstacle());
+// }
 
-function draw() {
-  background(30);
+// function draw() {
+//   background(30);
 
-  // Ground
-  fill(60);
-  rect(0, height - groundHeight, width, groundHeight);
+//   // Ground
+//   fill(60);
+//   rect(0, height - groundHeight, width, groundHeight);
 
-  if (!gameOver) {
-    // Player actions
-    player.update();
-    player.show();
+//   if (!gameOver) {
+//     // Player actions
+//     player.update();
+//     player.show();
 
-    // Obstacles
-    for (let i = obstacles.length - 1; i >= 0; i--) {
-      obstacles[i].update();
-      obstacles[i].show();
+//     // Obstacles
+//     for (let i = obstacles.length - 1; i >= 0; i--) {
+//       obstacles[i].update();
+//       obstacles[i].show();
 
-      if (obstacles[i].hits(player)) {
-        gameOver = true;
-      }
+//       if (obstacles[i].hits(player)) {
+//         gameOver = true;
+//       }
 
-      if (obstacles[i].offscreen()) {
-        obstacles.splice(i, 1);
-        score++;
-      }
-    }
+//       if (obstacles[i].offscreen()) {
+//         obstacles.splice(i, 1);
+//         score++;
+//       }
+//     }
 
-    // Add new obstacles
-    if (frameCount % 90 === 0) {
-      obstacles.push(new Obstacle());
-    }
+//     // Add new obstacles
+//     if (frameCount % 90 === 0) {
+//       obstacles.push(new Obstacle());
+//     }
 
-    // Score
-    fill(255);
-    textSize(32);
-    textAlign(LEFT);
-    text(`Score: ${score}`, 20, 40);
-  } else {
-    // Game Over
-    fill(255, 0, 0);
-    textSize(48);
-    textAlign(CENTER);
-    text("Game Over!", width / 2, height / 2 - 20);
-    fill(255);
-    textSize(24);
-    text("Press SPACE to restart", width / 2, height / 2 + 20);
-  }
-}
+//     // Score
+//     fill(255);
+//     textSize(32);
+//     textAlign(LEFT);
+//     text(`Score: ${score}`, 20, 40);
+//   } else {
+//     // Game Over
+//     fill(255, 0, 0);
+//     textSize(48);
+//     textAlign(CENTER);
+//     text("Game Over!", width / 2, height / 2 - 20);
+//     fill(255);
+//     textSize(24);
+//     text("Press SPACE to restart", width / 2, height / 2 + 20);
+//   }
+// }
 
-function keyPressed() {
-  if (key === ' ') {
-    if (gameOver) {
-      resetGame();
-    } else {
-      player.jump();
-    }
-  }
-}
+// function keyPressed() {
+//   if (key === ' ') {
+//     if (gameOver) {
+//       resetGame();
+//     } else {
+//       player.jump();
+//     }
+//   }
+// }
 
-// Player class
-class Player {
-  constructor() {
-    this.size = 40;
-    this.x = 100;
-    this.y = height - groundHeight - this.size;
-    this.vy = 0;
-    this.gravity = 1;
-    this.jumpForce = -15;
-    this.onGround = true;
-  }
+// // Player class
+// class Player {
+//   constructor() {
+//     this.size = 40;
+//     this.x = 100;
+//     this.y = height - groundHeight - this.size;
+//     this.vy = 0;
+//     this.gravity = 1;
+//     this.jumpForce = -15;
+//     this.onGround = true;
+//   }
 
-  show() {
-    fill(0, 255, 255);
-    rect(this.x, this.y, this.size, this.size);
-  }
+//   show() {
+//     fill(0, 255, 255);
+//     rect(this.x, this.y, this.size, this.size);
+//   }
 
-  jump() {
-    if (this.onGround) {
-      this.vy = this.jumpForce;
-      this.onGround = false;
-    }
-  }
+//   jump() {
+//     if (this.onGround) {
+//       this.vy = this.jumpForce;
+//       this.onGround = false;
+//     }
+//   }
 
-  update() {
-    this.y += this.vy;
-    this.vy += this.gravity;
+//   update() {
+//     this.y += this.vy;
+//     this.vy += this.gravity;
 
-    // Ground collision
-    if (this.y + this.size >= height - groundHeight) {
-      this.y = height - groundHeight - this.size;
-      this.vy = 0;
-      this.onGround = true;
-    }
-  }
-}
+//     // Ground collision
+//     if (this.y + this.size >= height - groundHeight) {
+//       this.y = height - groundHeight - this.size;
+//       this.vy = 0;
+//       this.onGround = true;
+//     }
+//   }
+// }
 
-// Obstacle class
-class Obstacle {
-  constructor() {
-    this.size = random(30, 50);
-    this.x = width;
-    this.y = height - groundHeight - this.size;
-    this.speed = 6;
-  }
+// // Obstacle class
+// class Obstacle {
+//   constructor() {
+//     this.size = random(30, 50);
+//     this.x = width;
+//     this.y = height - groundHeight - this.size;
+//     this.speed = 6;
+//   }
 
-  show() {
-    fill(255, 0, 255);
-    rect(this.x, this.y, this.size, this.size);
-  }
+//   show() {
+//     fill(255, 0, 255);
+//     rect(this.x, this.y, this.size, this.size);
+//   }
 
-  update() {
-    this.x -= this.speed;
-  }
+//   update() {
+//     this.x -= this.speed;
+//   }
 
-  hits(player) {
-    return (
-      player.x < this.x + this.size &&
-      player.x + player.size > this.x &&
-      player.y < this.y + this.size &&
-      player.y + player.size > this.y
-    );
-  }
+//   hits(player) {
+//     return (
+//       player.x < this.x + this.size &&
+//       player.x + player.size > this.x &&
+//       player.y < this.y + this.size &&
+//       player.y + player.size > this.y
+//     );
+//   }
 
-  offscreen() {
-    return this.x + this.size < 0;
-  }
-}
+//   offscreen() {
+//     return this.x + this.size < 0;
+//   }
+// }
 
-function resetGame() {
-  player = new Player();
-  obstacles = [];
-  obstacles.push(new Obstacle());
-  score = 0;
-  gameOver = false;
-}
+// function resetGame() {
+//   player = new Player();
+//   obstacles = [];
+//   obstacles.push(new Obstacle());
+//   score = 0;
+//   gameOver = false;
+// }
 
 
 
