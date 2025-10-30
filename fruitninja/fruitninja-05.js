@@ -2,7 +2,7 @@ let bg;
 
 let score=0;
 let missedfruit=0;
-let timer=5
+let timer=60
 
 
 let gameState="start"
