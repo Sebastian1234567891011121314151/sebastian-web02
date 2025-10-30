@@ -287,7 +287,7 @@ let Me ={name:"Me",gender:'M',height:164}
 friends=[TimCheese,Tim,Cheese,TimChe,Chee,Teacher,Me]
 
 for(let one of friends){
-  if(one.gender="M")
+  if(one.gender==="M")
     continue;
 console.log(one)
 }
