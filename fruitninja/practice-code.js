@@ -284,7 +284,7 @@ let Me ={name:"Me",gender:M,height:164}
 
 
 
-
+friends[Time]
 
 
 
