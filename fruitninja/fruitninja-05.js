@@ -89,10 +89,10 @@ function draw(){
         }
 
         
-        if (frameCount % 20===0){
+            if (frameCount % 60===0){
         
-            spawnFruit()
-        }
+                spawnFruit()
+            }
         for(let one of fruitGroup){
             if (one.y>height+10){
                 missedfruit++;
