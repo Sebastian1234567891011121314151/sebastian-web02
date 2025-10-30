@@ -67,7 +67,7 @@ function draw(){
         gameStarting();
 
         // wait for player
-        if (kb.presses('space')||){
+        if (kb.presses('space')||(mouse.presses())){
         gameState="play";
 
         }
