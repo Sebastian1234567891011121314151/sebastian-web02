@@ -292,7 +292,7 @@ for(let one of friends){
 
 }
 
-
+console.log(one)
 
 
 
