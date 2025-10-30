@@ -286,11 +286,11 @@ let Me ={name:"Me",gender:'M',height:164,house:'Hougang'}
 
 friends=[TimCheese,Tim,Cheese,TimChe,Chee,Teacher,Me]
 
-for(let one of friends){
-  if(one.gender==="F")
-    continue;
-console.log(one)
-}
+// for(let one of friends){
+//   if(one.gender==="F")
+//     continue;
+// console.log(one)
+// }
 
 for(let one of friends){
   if(one.house==="Hougang"){
