@@ -87,6 +87,8 @@ function draw(){
 
             return;
         }
+
+        
         if (frameCount % counter===0){
             spawnFruit()
         }
