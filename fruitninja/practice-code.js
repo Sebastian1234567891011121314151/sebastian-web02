@@ -273,14 +273,14 @@ let friends
 
 
 
-house:Hougang
-let TimCheese ={name:"TimCheese",gender:"M",height:200}
-let Tim ={name:"Tim",gender:'F',height:140}
-let Cheese ={name:"Cheese",gender:'F',height:160}
-let TimChe ={name:"TimChe",gender:'M',height:175}
-let Chee ={name:"Chee",gender:'M',height:167}
-let Teacher ={name:"Teacher",gender:'F',height:160}
-let Me ={name:"Me",gender:'M',height:164}
+
+let TimCheese ={name:"TimCheese",gender:"M",height:200,house:'Hougang'}
+let Tim ={name:"Tim",gender:'F',height:140,house:'Hougang'}
+let Cheese ={name:"Cheese",gender:'F',height:160,house:Hougang}
+let TimChe ={name:"TimChe",gender:'M',height:175,house:Hougang}
+let Chee ={name:"Chee",gender:'M',height:167,house:Hougang}
+let Teacher ={name:"Teacher",gender:'F',height:160,house:Hougang}
+let Me ={name:"Me",gender:'M',height:164,house:Hougang}
 
 
 
