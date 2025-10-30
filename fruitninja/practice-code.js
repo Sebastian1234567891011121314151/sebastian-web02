@@ -294,7 +294,7 @@ console.log(one)
 
 for(let one of friends){
   if(one.house==="Hougang")
-    continue;
+    break;
 console.log(one)
 }
 
