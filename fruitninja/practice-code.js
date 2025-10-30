@@ -280,7 +280,7 @@ let Cheese ={name:"Cheese",gender:'F',height:160}
 let TimChe ={name:"TimChe",gender:'M',height:175}
 let Chee ={name:"Chee",gender:'M',height:167}
 let Teacher ={name:"Teacher",gender:'F',height:160}
-let TimCheese ={name:"TimCheese",gender:M,height:200}
+let Me ={name:"Me",gender:M,height:200}
 
 
 
