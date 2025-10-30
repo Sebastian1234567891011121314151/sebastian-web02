@@ -91,15 +91,21 @@ function draw(){
         else if (timer<=45 & timer>=30){
             if (frameCount % 60===0){
                 spawnFruit()
+                spawnFruit()
         }
     }
         else if (timer<=30& timer>=15){
             if (frameCount % 60===0){
                 spawnFruit()
+                spawnFruit()
+                spawnFruit()
         }
     }
         else if (timer<=15){
             if (frameCount % 60===0){
+                spawnFruit()
+                spawnFruit()
+                spawnFruit()
                 spawnFruit()
         }
     }
