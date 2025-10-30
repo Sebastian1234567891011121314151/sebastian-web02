@@ -274,7 +274,7 @@ function resetGame() {
 
 
 
-let TimCheese 
+let TimCheese ={name:TimCheese}
 
 
 
