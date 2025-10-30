@@ -276,7 +276,7 @@ let friends
 
 let TimCheese ={name:"TimCheese",gender:"M",height:200,house:'Bishan'}
 let Tim ={name:"Tim",gender:'F',height:140,house:'Bishan'}
-let Cheese ={name:"Cheese",gender:'F',height:160,house:'Hougang'}
+let Cheese ={name:"Cheese",gender:'F',height:160,house:'C'}
 let TimChe ={name:"TimChe",gender:'M',height:175,house:'Hougang'}
 let Chee ={name:"Chee",gender:'M',height:167,house:'Hougang'}
 let Teacher ={name:"Teacher",gender:'F',height:160,house:'Hougang'}
