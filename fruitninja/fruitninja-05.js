@@ -88,7 +88,7 @@ function draw(){
             return;
         }
 
-        for(let count=;count<30;count=count+1){
+        for(let count=29;count<30;count=count+1){
                 if (frameCount % count===0){
                 spawnFruit()
             }
