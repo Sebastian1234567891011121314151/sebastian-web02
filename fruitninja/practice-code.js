@@ -284,7 +284,7 @@ let Me ={name:"Me",gender:'M',height:164}
 
 
 
-friends=[TimeCheese,Tim,Cheese,TimChe,Chee,Teacher,Me]
+friends=[TimCheese,Tim,Cheese,TimChe,Chee,Teacher,Me]
 
 for(let one of friends){
   if(gender="M")
