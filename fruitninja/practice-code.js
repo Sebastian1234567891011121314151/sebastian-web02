@@ -262,3 +262,26 @@ function resetGame() {
   score = 0;
   gameOver = false;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
