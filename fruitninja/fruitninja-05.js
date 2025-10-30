@@ -81,12 +81,7 @@ function draw(){
         if ((frameCount-FCstart+1) % 60 ===0){
             timer--
         }
-        if (timer===0){
-            gameState = "gameover";
-            timer=60;
-            score=0;
-            missedfruit=0;
-            return;
+        
         }
         if (frameCount % 60===0){
             spawnFruit()
@@ -112,7 +107,7 @@ function draw(){
             sliceFruit();
         }
     }
-    else if(gameState==="gameover"){
+    if(gameState==="gameover"){
         displayGO();
 
         // wait for player
@@ -120,6 +115,15 @@ function draw(){
         gameState="play";
 
         }
+    if (timer===0){
+        gameState = "gameover";
+        timer=60;
+        score=0;
+        missedfruit=0;
+        return;
+
+
+
     }
 
 
