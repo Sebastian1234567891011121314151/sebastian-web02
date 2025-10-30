@@ -292,7 +292,11 @@ for(let one of friends){
 console.log(one)
 }
 
-
+for(let one of friends){
+  if(one.house==="F")
+    continue;
+console.log(one)
+}
 
 
 
