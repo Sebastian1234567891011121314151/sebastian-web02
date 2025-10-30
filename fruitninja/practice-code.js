@@ -286,7 +286,9 @@ let Me ={name:"Me",gender:'M',height:164}
 
 friends=[TimeCheese,Tim,Cheese,TimChe,Chee,Teacher,Me]
 
-
+for(let one of friends){
+  
+}
 
 
 
