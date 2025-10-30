@@ -89,8 +89,8 @@ function draw(){
         }
 
         
-        if (frameCount % counter===0){
-            
+        if (frameCount % time===0){
+
             spawnFruit()
         }
         for(let one of fruitGroup){
