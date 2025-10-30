@@ -58,7 +58,7 @@ function setup(){
 
 
 function draw(){
-    let counter= timer*1.3
+
     clear();
 
     image(bg,0,0,width,height);
