@@ -70,17 +70,6 @@ function draw(){
         gameState="play";
 
         }
-if (timer===0){
-        gameState = "gameover";
-        timer=60;
-        score=0;
-        missedfruit=0;
-        return;
-
-
-
-
-
     }
     else if(gameState==="play"){
         gamePlay();
@@ -92,7 +81,12 @@ if (timer===0){
         if ((frameCount-FCstart+1) % 60 ===0){
             timer--
         }
-        
+        if (timer===0){
+            gameState = "gameover";
+            timer=60;
+            score=0;
+            missedfruit=0;
+            return;
         }
         if (frameCount % 60===0){
             spawnFruit()
@@ -126,10 +120,6 @@ if (timer===0){
         gameState="play";
 
         }
-    
-
-
-
     }
 
 
