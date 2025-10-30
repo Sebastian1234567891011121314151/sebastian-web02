@@ -82,16 +82,35 @@ function draw(){
         if ((frameCount-FCstart+1) % 60 ===0){
             timer--
         }
+        if (timer<=60 & timer>=46){
+            if (frameCount % 60===0){
+                spawnFruit()
+        }
+    }
+        else if (timer<=45 & timer>=31){
+            if (frameCount % 50===0){
+                spawnFruit()
+        }
+    }
+        else if (timer<=30& timer>=16){
+            if (frameCount % 40===0){
+                spawnFruit()
+        }
+    }
+        else if (timer<=15){
+            if (frameCount % 30===0){
+                spawnFruit()
+        }
+    }
         if (timer===0){
             gameState = "gameover";
 
             return;
         }
-
-        for(let count=29;count<30;count=count+1){
-                if (frameCount % count===0){
-                spawnFruit()
-            }
+        // for(let count=29;count<30;count=count+1){
+        //         if (frameCount % count===0){
+        //         spawnFruit()
+    // }
         }
 
         for(let one of fruitGroup){
@@ -114,9 +133,9 @@ function draw(){
             trail.life=10;
             sliceFruit();
         }
-    }
-    else if(gameState==="gameover"){
-        displayGO();
+    
+        else if(gameState==="gameover"){
+            displayGO();
 
         // wait for player
         if (kb.presses('space')){
