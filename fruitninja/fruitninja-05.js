@@ -112,7 +112,7 @@ function draw(){
     }
     else if(gameState==="gameover"){
         displayGO();
-
+        
         // wait for player
         if (kb.presses('space')){
         gameState="play";
