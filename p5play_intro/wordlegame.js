@@ -24,7 +24,7 @@ button1.mousePressed( handleUserInput);
 function handleUserInput(){
 let guess=guessInput.value()
 
-
+console.log(guess)
 
 
 }
