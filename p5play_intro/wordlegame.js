@@ -2,7 +2,7 @@
 const LIBRARY = ["APPLE","GRAPE","MANGO"]
 
 let attempts=0;
-let hidden= random(LIBRARY)
+let hidden
 function setup() {
 new Canvas (600,500);
 background('pink');
