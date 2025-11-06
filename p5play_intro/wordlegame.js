@@ -17,11 +17,13 @@ guessInput.position(width/2-100,370)
 button1= createButton('Guess')
 button1.position(width/2+80,370)
 
-button1.mousePressed(handleU)
+button1.mousePressed(handleUserInput)
 
 }
 
 function draw()  {
+
+let guess=
 background('pink');
 textAlign(CENTER,CENTER );
     textSize(35);
