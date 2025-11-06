@@ -6,6 +6,8 @@ let hidden= random(LIBRARY)
 function setup() {
 new Canvas (600,500);
 background('pink');
+hidden= random(LIBRARY)
+
 }
 
 function draw()  {
