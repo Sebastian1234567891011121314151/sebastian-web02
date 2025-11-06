@@ -11,6 +11,7 @@ background('pink');
 hidden= random(LIBRARY)
 console.log(hidden)
 hint=hidden[0] +'_ '.repeat(hidden.length-1)
+guessInput= create
 }
 
 function draw()  {
