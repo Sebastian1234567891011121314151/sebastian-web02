@@ -33,6 +33,11 @@ if (guess === hidden){
     message="nice ur right"+ hidden
 }
 else{
+    let matched
+
+
+
+
     message ="not nice ur wrong"
 }
 
