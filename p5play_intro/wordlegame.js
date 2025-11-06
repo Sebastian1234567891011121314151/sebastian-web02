@@ -4,7 +4,7 @@ let hint;
 let attempts=0;
 let hidden;
 let guessInput
-let Button
+let button
 function setup() {
 new Canvas (600,500);
 background('pink');
