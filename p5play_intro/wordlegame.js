@@ -17,7 +17,7 @@ guessInput.position(width/2-100,370)
 button1= createButton('Guess')
 button1.position(width/2+80,370)
 
-button1.mousePressed(handleUserInput)
+button1.mousePressed( handleUserInput);
 
 }
 
