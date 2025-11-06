@@ -3,7 +3,8 @@ const LIBRARY = ["APPLE","GRAPE","MANGO"]
 let hint;
 let attempts=0;
 let hidden;
-let guess input
+let guessInput
+let Button
 function setup() {
 new Canvas (600,500);
 background('pink');
