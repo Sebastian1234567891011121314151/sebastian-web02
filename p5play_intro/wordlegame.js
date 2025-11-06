@@ -4,5 +4,8 @@ background('pink')
 }
 
 function draw()  {
-
+textAlign(CENTER,CENTER )
+    textSize(25);
+    fill("white");
+    text('')
 }
