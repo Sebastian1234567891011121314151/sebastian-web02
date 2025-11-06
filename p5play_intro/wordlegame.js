@@ -30,7 +30,10 @@ let guess=guessInput.value()
 
 console.log(guess)
 if (guess === hidden){
-    message="nice ur right"+hidden
+    message="nice ur right"+ hidden
+}
+else{
+    message =""
 }
 
 }
