@@ -8,6 +8,7 @@ new Canvas (600,500);
 background('pink');
 hidden= random(LIBRARY)
 console.log(hidden)
+hint=hidden[0]
 }
 
 function draw()  {
