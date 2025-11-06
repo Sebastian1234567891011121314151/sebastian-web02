@@ -5,7 +5,7 @@ let attempts=0;
 let hidden;
 let guessInput
 let button1
-
+let message
 
 
 function setup() {
