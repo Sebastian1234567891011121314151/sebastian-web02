@@ -24,7 +24,8 @@ button1.mousePressed( handleUserInput);
 function handleUserInput(){
 for (let one of hidden){
     if (handleUserInput===hidden){
-        
+        console.log(one)
+        break
     }
 }
 
