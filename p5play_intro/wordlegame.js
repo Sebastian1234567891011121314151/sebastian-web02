@@ -18,6 +18,6 @@ textAlign(CENTER,CENTER );
     text('Guess the hidden Word!' ,width/2,150);
     text('Attemps: '+attempts, width/2,190);
     textSize(50);
-    text('Word : +hidden[0]+ _ _ _ _',width/2,250);
+    text('Word : '+hidden[0]+' _ _ _ _',width/2,250);
 
 }
