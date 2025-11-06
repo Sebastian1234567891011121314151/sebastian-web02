@@ -1,6 +1,6 @@
 
 const LIBRARY = ["APPLE","GRAPE","MANGO"]
-
+let hint
 let attempts=0;
 let hidden
 function setup() {
@@ -18,6 +18,5 @@ textAlign(CENTER,CENTER );
     text('Guess the hidden Word!' ,width/2,150);
     text('Attemps: '+attempts, width/2,190);
     textSize(50);
-    text('Word : '+hidden[0]+' _ '.repeat(hidden.length-1),width/2,250);
 
 }
