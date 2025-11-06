@@ -305,3 +305,14 @@ for(let one of friends){
 console.log(one)
 }
 
+
+
+
+
+
+for (let one of hidden){
+    if (handleUserInput===hidden){
+        console.log(one)
+        break
+    }
+}
