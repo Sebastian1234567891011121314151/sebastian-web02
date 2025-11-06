@@ -22,7 +22,11 @@ button1.mousePressed( handleUserInput);
 }
 
 function handleUserInput(){
-for (let one of hidden)
+for (let one of hidden){
+    if (handleUserInput===hidden){
+        
+    }
+}
 
 
 let guess=guessInput.value()
