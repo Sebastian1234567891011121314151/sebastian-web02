@@ -1,5 +1,5 @@
 
-const LIBRARY = ["APPLE","GRAPE","MANGO"]
+const LIBRARY = ["apple","grape","mango"]
 let hint;
 let attempts=0;
 let hidden;
