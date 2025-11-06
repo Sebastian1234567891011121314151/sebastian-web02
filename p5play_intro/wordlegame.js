@@ -23,7 +23,7 @@ button1.mousePressed(handleUserInput)
 
 function draw()  {
 
-let guess=
+let guess=guessInput.value()
 background('pink');
 textAlign(CENTER,CENTER );
     textSize(35);
