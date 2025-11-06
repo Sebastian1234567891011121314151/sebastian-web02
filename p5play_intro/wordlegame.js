@@ -22,7 +22,11 @@ button1.mousePressed( handleUserInput);
 }
 
 function handleUserInput(){
-    
+let guess=guessInput.value()
+
+
+
+
 }
 
 
@@ -31,7 +35,7 @@ function handleUserInput(){
 
 function draw()  {
 
-let guess=guessInput.value()
+
 background('pink');
 textAlign(CENTER,CENTER );
     textSize(35);
