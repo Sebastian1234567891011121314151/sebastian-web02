@@ -33,7 +33,7 @@ if (guess === hidden){
     message="nice ur right"+ hidden
 }
 else{
-    message =""
+    message ="not nice ur wrong"
 }
 
 }
