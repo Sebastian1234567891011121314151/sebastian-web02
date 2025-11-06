@@ -33,18 +33,18 @@ if (guess === hidden){
     message="nice ur right"+ hidden
 }
 else{
-            attempts = attempts+1;
-        let matchedletter = [];
-        guess = guess.toLowerCase();
-        hidden = hidden.toLowerCase();
-        for (let index=0; index<hidden.length; index++) {
-            if (guess[index] === hidden[index]) {
+    attempts = attempts+1;
+    let matchedletter = [];
+    guess = guess.toLowerCase();
+    hidden = hidden.toLowerCase();
+    for (let index=0; index<hidden.length; index++) {
+        if (guess[index] === hidden[index]) {
                 matchedletter.push(guess[index])
-            }
         }
-        let someletters = matchedletter.join(" ");
-        someletters = someletters.toUpperCase();
-        message = "You are wrong! These are found: " + someletters;
+    }
+    let someletters = matchedletter.join(" ");
+    someletters = someletters.toUpperCase();
+    message = "You are wrong! These are found: " + someletters;
 
 
 
