@@ -12,6 +12,7 @@ hidden= random(LIBRARY)
 console.log(hidden)
 hint=hidden[0] +'_ '.repeat(hidden.length-1)
 guessInput= createInput("fill in")
+guessInput=
 }
 
 function draw()  {
