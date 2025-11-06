@@ -12,7 +12,7 @@ function draw()  {
 textAlign(CENTER,CENTER )
     textSize(25);
     fill("white");
-    text('Guess the hidden Word!' ,width/2,30)
+    text('Guess the hidden Word!' ,width/2,150)
     text('Attemps'+attempts, width/2,50)
     text('Word : T _ _ _ _')
 
