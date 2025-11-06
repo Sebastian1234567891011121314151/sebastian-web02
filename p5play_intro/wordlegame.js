@@ -50,4 +50,6 @@ textAlign(CENTER,CENTER );
     textSize(50);
     text('Word : '+ hint,width/2,250)
 
+text
+
 }
