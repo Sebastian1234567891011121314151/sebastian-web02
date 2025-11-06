@@ -8,7 +8,7 @@ new Canvas (600,500);
 background('pink');
 hidden= random(LIBRARY)
 console.log(hidden)
-hint=hidden[0] +'_ '.repeat(hidden.length)
+hint=hidden[0] +'_ '.repeat(hidden.length-1)
 }
 
 function draw()  {
