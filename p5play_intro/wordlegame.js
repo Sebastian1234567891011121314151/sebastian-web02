@@ -1,5 +1,5 @@
 
-const LIBRARY = ["APPLE","GRAPE", ""]
+const LIBRARY = ["APPLE","GRAPE","MANGO"]
 
 let attempts=0;
 
