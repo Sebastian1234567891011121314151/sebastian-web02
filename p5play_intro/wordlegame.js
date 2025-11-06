@@ -21,6 +21,14 @@ button1.mousePressed( handleUserInput);
 
 }
 
+function handleUserInput(){
+    
+}
+
+
+
+
+
 function draw()  {
 
 let guess=guessInput.value()
