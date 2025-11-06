@@ -9,7 +9,7 @@ background('pink');
 }
 
 function draw()  {
-    clear();
+background('pink');
 textAlign(CENTER,CENTER );
     textSize(25);
     fill("black");
