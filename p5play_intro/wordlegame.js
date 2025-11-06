@@ -13,6 +13,11 @@ console.log(hidden)
 hint=hidden[0] +'_ '.repeat(hidden.length-1)
 guessInput= createInput("")
 guessInput.position(width/2-100,370)
+
+button1= create
+
+
+
 }
 
 function draw()  {
