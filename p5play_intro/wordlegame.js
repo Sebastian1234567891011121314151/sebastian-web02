@@ -7,7 +7,7 @@ function setup() {
 new Canvas (600,500);
 background('pink');
 hidden= random(LIBRARY)
-
+console.log(hidden)
 }
 
 function draw()  {
