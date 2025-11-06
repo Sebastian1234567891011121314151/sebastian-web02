@@ -4,7 +4,7 @@ let hint;
 let attempts=0;
 let hidden;
 let guessInput
-let button
+let button1
 function setup() {
 new Canvas (600,500);
 background('pink');
@@ -12,7 +12,7 @@ hidden= random(LIBRARY)
 console.log(hidden)
 hint=hidden[0] +'_ '.repeat(hidden.length-1)
 guessInput= createInput("fill in")
-guessInput.position(width/2-100,height/2)
+guessInput.position(width/2,height/2)
 }
 
 function draw()  {
