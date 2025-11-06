@@ -24,13 +24,13 @@ button1.mousePressed( handleUserInput);
 function handleUserInput(){
 if (guess === hidden){
     message="nice ur right"+hidden
-}
+
 // write if condition
 // to check if the guess is matching to the hidden word
 let guess=guessInput.value()
 
 console.log(guess)
-
+}
 
 }
 
