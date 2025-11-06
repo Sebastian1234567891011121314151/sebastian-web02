@@ -7,6 +7,6 @@ function draw()  {
 textAlign(CENTER,CENTER )
     textSize(25);
     fill("white");
-    text('Guess the hidden Word!')
+    text('Guess the hidden Word!' ,)
     text('Attemps')
 }
