@@ -23,7 +23,7 @@ button1.mousePressed( handleUserInput);
 
 function handleUserInput(){
 if (guess === hidden){
-    MessageChannel()
+    message()
 }
 // write if condition
 // to check if the guess is matching to the hidden word
