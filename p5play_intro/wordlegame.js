@@ -23,8 +23,8 @@ button1.mousePressed( handleUserInput);
 
 function handleUserInput(){
 
-
-
+// write if condition
+// to check if the guess is matching to the hidden word
 let guess=guessInput.value()
 
 console.log(guess)
