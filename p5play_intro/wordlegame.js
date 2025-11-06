@@ -5,6 +5,9 @@ let attempts=0;
 let hidden;
 let guessInput
 let button1
+
+
+
 function setup() {
 new Canvas (600,500);
 background('pink');
@@ -13,12 +16,9 @@ console.log(hidden)
 hint=hidden[0] +'_ '.repeat(hidden.length-1)
 guessInput= createInput("")
 guessInput.position(width/2-100,370)
-
 button1= createButton('Guess')
 button1.position(width/2+80,370)
-
 button1.mousePressed( handleUserInput);
-
 }
 
 function handleUserInput(){
