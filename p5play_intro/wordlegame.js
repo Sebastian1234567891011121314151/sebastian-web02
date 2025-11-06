@@ -13,7 +13,7 @@ textAlign(CENTER,CENTER )
     textSize(25);
     fill("white");
     text('Guess the hidden Word!' ,width/2,150)
-    text('Attemps: '+attempts, width/2,200)
-    text('Word : T _ _ _ _',width/2,)
+    text('Attemps: '+attempts, width/2,190)
+    text('Word : T _ _ _ _',width/2,230)
 
 }
